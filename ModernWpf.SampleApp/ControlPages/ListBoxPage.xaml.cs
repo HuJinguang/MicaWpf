@@ -7,15 +7,15 @@
 // PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
 //
 //*********************************************************
-using ModernWpf.Controls;
+using Glasssix.MicaUI.Controls;
 using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using Page = ModernWpf.Controls.Page;
+using Page = Glasssix.MicaUI.Controls.Page;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class ListBoxPage : Page
     {

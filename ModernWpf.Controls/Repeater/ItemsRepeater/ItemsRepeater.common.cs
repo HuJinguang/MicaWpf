@@ -6,7 +6,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Media;
 using System.Windows.Media.Media3D;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class CachedVisualTreeHelpers
     {

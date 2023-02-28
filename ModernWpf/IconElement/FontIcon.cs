@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents an icon that uses a glyph from the specified font.

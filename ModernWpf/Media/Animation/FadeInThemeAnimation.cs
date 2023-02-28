@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Media.Animation;
 
-namespace ModernWpf.Media.Animation
+namespace Glasssix.MicaUI.Media.Animation
 {
     /// <summary>
     /// Represents the preconfigured opacity animation that applies to controls when

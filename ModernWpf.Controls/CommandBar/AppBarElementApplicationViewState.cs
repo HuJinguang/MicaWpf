@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Controls
+﻿namespace Glasssix.MicaUI.Controls
 {
     internal enum AppBarElementApplicationViewState
     {

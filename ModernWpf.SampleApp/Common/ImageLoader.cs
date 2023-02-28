@@ -1,4 +1,4 @@
-﻿using ModernWpf.SampleApp.DataModel;
+﻿using Glasssix.MicaUI.SampleApp.DataModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
-namespace ModernWpf.SampleApp.Common
+namespace Glasssix.MicaUI.SampleApp.Common
 {
     public class ImageLoader
     {

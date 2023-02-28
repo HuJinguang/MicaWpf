@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Media;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     // Given some elements and their animation context, ElementAnimator
     // animates them (show, hide and bounds change) and ensures the timing

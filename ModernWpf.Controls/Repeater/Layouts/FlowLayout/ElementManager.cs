@@ -7,7 +7,7 @@ using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     // Internal component for layout to keep track of elements and
     // help with collection changes.

@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Controls.Primitives
+﻿namespace Glasssix.MicaUI.Controls.Primitives
 {
     public enum FlyoutShowMode
     {

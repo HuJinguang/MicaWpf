@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Navigation;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents content that a Frame control can navigate to.

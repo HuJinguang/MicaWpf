@@ -12,10 +12,10 @@ using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using static CppWinRTHelpers;
-using static ModernWpf.ResourceAccessor;
-using ButtonVisibility = ModernWpf.Controls.PipsPagerButtonVisibility;
+using static Glasssix.MicaUI.ResourceAccessor;
+using ButtonVisibility = Glasssix.MicaUI.Controls.PipsPagerButtonVisibility;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents a control that enables navigation within linearly paginated content using a configurable collection of glyphs, each of which represents a single "page" within a limitless range.

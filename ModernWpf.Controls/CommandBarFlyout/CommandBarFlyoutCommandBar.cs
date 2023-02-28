@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Input;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     [TemplatePart(Name = ToolBarName, Type = typeof(CommandBarFlyoutToolBar))]
     public class CommandBarFlyoutCommandBar : CommandBar

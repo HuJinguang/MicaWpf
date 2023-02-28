@@ -1,4 +1,4 @@
-﻿using ModernWpf.Controls;
+﻿using Glasssix.MicaUI.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     /// <summary>
     /// DropDownButtonPage.xaml 的交互逻辑

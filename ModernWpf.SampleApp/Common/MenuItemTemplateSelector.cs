@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Markup;
 
-namespace ModernWpf.SampleApp.Common
+namespace Glasssix.MicaUI.SampleApp.Common
 {
 
     [ContentProperty("ItemTemplate")]

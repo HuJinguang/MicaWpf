@@ -16,7 +16,7 @@ using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Markup;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
 
     /// <summary>

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Threading;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class PipsPagerTemplateSettings : DependencyObject
     {

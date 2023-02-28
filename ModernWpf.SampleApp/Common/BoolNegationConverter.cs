@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace ModernWpf.SampleApp.Common
+namespace Glasssix.MicaUI.SampleApp.Common
 {
     /// <summary>
     /// Value converter that applies NOT operator to a <see cref="bool"/> value.

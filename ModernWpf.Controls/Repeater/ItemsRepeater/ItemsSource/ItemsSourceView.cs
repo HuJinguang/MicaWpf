@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Specialized;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class ItemsSourceView : INotifyCollectionChanged
     {

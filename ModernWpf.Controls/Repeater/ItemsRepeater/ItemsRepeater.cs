@@ -10,9 +10,9 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Markup;
 using System.Windows.Media;
-using ModernWpf.Automation.Peers;
+using Glasssix.MicaUI.Automation.Peers;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     [ContentProperty(nameof(ItemTemplate))]
     public partial class ItemsRepeater : Panel

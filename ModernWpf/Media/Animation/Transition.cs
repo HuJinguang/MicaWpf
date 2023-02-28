@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ModernWpf.Media.Animation
+namespace Glasssix.MicaUI.Media.Animation
 {
     /// <summary>
     /// Represents a visual behavior that occurs for predefined actions or state changes.

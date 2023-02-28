@@ -8,11 +8,11 @@ using System.Windows.Automation.Peers;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Input;
-using ModernWpf.Automation.Peers;
-using ModernWpf.Controls.Primitives;
-using static ModernWpf.ResourceAccessor;
+using Glasssix.MicaUI.Automation.Peers;
+using Glasssix.MicaUI.Controls.Primitives;
+using static Glasssix.MicaUI.ResourceAccessor;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class SplitButton : ContentControl, ICommandSource
     {

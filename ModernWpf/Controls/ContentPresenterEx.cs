@@ -4,7 +4,7 @@ using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Media;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// ContentPresenter is used within the template of a content control to denote the

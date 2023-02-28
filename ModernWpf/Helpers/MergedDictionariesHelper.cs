@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Windows;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal static class MergedDictionariesHelper
     {

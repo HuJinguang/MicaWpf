@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents an hour comparison operation that ensures that 12 is smaller than 1.

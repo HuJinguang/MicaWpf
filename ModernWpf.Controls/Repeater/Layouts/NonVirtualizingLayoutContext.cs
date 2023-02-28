@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class NonVirtualizingLayoutContext : LayoutContext
     {

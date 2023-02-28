@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class SelectionTreeHelper
     {

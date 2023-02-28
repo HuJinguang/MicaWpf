@@ -8,7 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     public static class AutoPanningMode
     {

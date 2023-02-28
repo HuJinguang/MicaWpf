@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal struct SelectedItemInfo
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     public static class ThemeDictionary
     {

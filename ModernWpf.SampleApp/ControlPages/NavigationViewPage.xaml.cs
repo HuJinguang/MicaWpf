@@ -1,5 +1,5 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.SampleApp.Common;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.SampleApp.Common;
 using SamplesCommon.SamplePages;
 using System;
 using System.Collections.ObjectModel;
@@ -10,10 +10,10 @@ using System.Windows.Automation;
 using System.Windows.Controls;
 using System.Windows.Threading;
 using SamplesCommon;
-using Separator = ModernWpf.SampleApp.Common.Separator;
+using Separator = Glasssix.MicaUI.SampleApp.Common.Separator;
 using VirtualKey = System.Windows.Input.Key;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public sealed partial class NavigationViewPage
     {
@@ -30,11 +30,11 @@ namespace ModernWpf.SampleApp.ControlPages
             DataContext = this;
             InitializeComponent();
 
-            nvSample2.SelectedItem = nvSample2.MenuItems.OfType<ModernWpf.Controls.NavigationViewItem>().First();
-            nvSample5.SelectedItem = nvSample5.MenuItems.OfType<ModernWpf.Controls.NavigationViewItem>().First();
-            nvSample6.SelectedItem = nvSample6.MenuItems.OfType<ModernWpf.Controls.NavigationViewItem>().First();
-            nvSample7.SelectedItem = nvSample7.MenuItems.OfType<ModernWpf.Controls.NavigationViewItem>().First();
-            nvSample8.SelectedItem = nvSample8.MenuItems.OfType<ModernWpf.Controls.NavigationViewItem>().First();
+            nvSample2.SelectedItem = nvSample2.MenuItems.OfType<Glasssix.MicaUI.Controls.NavigationViewItem>().First();
+            nvSample5.SelectedItem = nvSample5.MenuItems.OfType<Glasssix.MicaUI.Controls.NavigationViewItem>().First();
+            nvSample6.SelectedItem = nvSample6.MenuItems.OfType<Glasssix.MicaUI.Controls.NavigationViewItem>().First();
+            nvSample7.SelectedItem = nvSample7.MenuItems.OfType<Glasssix.MicaUI.Controls.NavigationViewItem>().First();
+            nvSample8.SelectedItem = nvSample8.MenuItems.OfType<Glasssix.MicaUI.Controls.NavigationViewItem>().First();
 
             Categories = new ObservableCollection<CategoryBase>();
             Category firstCategory = new Category { Name = "Category 1", Glyph = Symbol.Home, Tooltip = "This is category 1" };
@@ -53,19 +53,19 @@ namespace ModernWpf.SampleApp.ControlPages
             nvSample2.UpdateLayout();
         }
 
-        public ModernWpf.Controls.NavigationViewPaneDisplayMode ChoosePanePosition(bool toggleOn)
+        public Glasssix.MicaUI.Controls.NavigationViewPaneDisplayMode ChoosePanePosition(bool toggleOn)
         {
             if (toggleOn)
             {
-                return ModernWpf.Controls.NavigationViewPaneDisplayMode.Left;
+                return Glasssix.MicaUI.Controls.NavigationViewPaneDisplayMode.Left;
             }
             else
             {
-                return ModernWpf.Controls.NavigationViewPaneDisplayMode.Top;
+                return Glasssix.MicaUI.Controls.NavigationViewPaneDisplayMode.Top;
             }
         }
 
-        private void NavigationView_SelectionChanged(ModernWpf.Controls.NavigationView sender, ModernWpf.Controls.NavigationViewSelectionChangedEventArgs args)
+        private void NavigationView_SelectionChanged(Glasssix.MicaUI.Controls.NavigationView sender, Glasssix.MicaUI.Controls.NavigationViewSelectionChangedEventArgs args)
         {
             if (args.IsSettingsSelected)
             {
@@ -73,7 +73,7 @@ namespace ModernWpf.SampleApp.ControlPages
             }
             else
             {
-                var selectedItem = (ModernWpf.Controls.NavigationViewItem)args.SelectedItem;
+                var selectedItem = (Glasssix.MicaUI.Controls.NavigationViewItem)args.SelectedItem;
                 if (selectedItem != null)
                 {
                     string selectedItemTag = (string)selectedItem.Tag;
@@ -85,7 +85,7 @@ namespace ModernWpf.SampleApp.ControlPages
             }
         }
 
-        private void NavigationView_SelectionChanged2(ModernWpf.Controls.NavigationView sender, ModernWpf.Controls.NavigationViewSelectionChangedEventArgs args)
+        private void NavigationView_SelectionChanged2(Glasssix.MicaUI.Controls.NavigationView sender, Glasssix.MicaUI.Controls.NavigationViewSelectionChangedEventArgs args)
         {
             if (!CameFromGridChange)
             {
@@ -95,7 +95,7 @@ namespace ModernWpf.SampleApp.ControlPages
                 }
                 else
                 {
-                    var selectedItem = (ModernWpf.Controls.NavigationViewItem)args.SelectedItem;
+                    var selectedItem = (Glasssix.MicaUI.Controls.NavigationViewItem)args.SelectedItem;
                     string selectedItemTag = (string)selectedItem.Tag;
                     string pageName = "SamplesCommon.SamplePages." + selectedItemTag;
                     Type pageType = typeof(SamplePage1).Assembly.GetType(pageName);
@@ -106,7 +106,7 @@ namespace ModernWpf.SampleApp.ControlPages
             CameFromGridChange = false;
         }
 
-        private void NavigationView_SelectionChanged4(ModernWpf.Controls.NavigationView sender, ModernWpf.Controls.NavigationViewSelectionChangedEventArgs args)
+        private void NavigationView_SelectionChanged4(Glasssix.MicaUI.Controls.NavigationView sender, Glasssix.MicaUI.Controls.NavigationViewSelectionChangedEventArgs args)
         {
             if (args.IsSettingsSelected)
             {
@@ -126,7 +126,7 @@ namespace ModernWpf.SampleApp.ControlPages
         }
 
 
-        private void NavigationView_SelectionChanged5(ModernWpf.Controls.NavigationView sender, ModernWpf.Controls.NavigationViewSelectionChangedEventArgs args)
+        private void NavigationView_SelectionChanged5(Glasssix.MicaUI.Controls.NavigationView sender, Glasssix.MicaUI.Controls.NavigationViewSelectionChangedEventArgs args)
         {
             if (args.IsSettingsSelected)
             {
@@ -134,7 +134,7 @@ namespace ModernWpf.SampleApp.ControlPages
             }
             else
             {
-                var selectedItem = (ModernWpf.Controls.NavigationViewItem)args.SelectedItem;
+                var selectedItem = (Glasssix.MicaUI.Controls.NavigationViewItem)args.SelectedItem;
                 string selectedItemTag = (string)selectedItem.Tag;
                 sender.Header = "Sample Page " + selectedItemTag.Substring(selectedItemTag.Length - 1);
                 string pageName = "SamplesCommon.SamplePages." + selectedItemTag;
@@ -142,7 +142,7 @@ namespace ModernWpf.SampleApp.ControlPages
                 contentFrame5.Navigate(pageType);
             }
         }
-        private void NavigationView_SelectionChanged6(ModernWpf.Controls.NavigationView sender, ModernWpf.Controls.NavigationViewSelectionChangedEventArgs args)
+        private void NavigationView_SelectionChanged6(Glasssix.MicaUI.Controls.NavigationView sender, Glasssix.MicaUI.Controls.NavigationViewSelectionChangedEventArgs args)
         {
             if (args.IsSettingsSelected)
             {
@@ -150,14 +150,14 @@ namespace ModernWpf.SampleApp.ControlPages
             }
             else
             {
-                var selectedItem = (ModernWpf.Controls.NavigationViewItem)args.SelectedItem;
+                var selectedItem = (Glasssix.MicaUI.Controls.NavigationViewItem)args.SelectedItem;
                 string pageName = "SamplesCommon.SamplePages." + (string)selectedItem.Tag;
                 Type pageType = typeof(SamplePage1).Assembly.GetType(pageName);
                 contentFrame6.Navigate(pageType);
             }
         }
 
-        private void NavigationView_SelectionChanged7(ModernWpf.Controls.NavigationView sender, ModernWpf.Controls.NavigationViewSelectionChangedEventArgs args)
+        private void NavigationView_SelectionChanged7(Glasssix.MicaUI.Controls.NavigationView sender, Glasssix.MicaUI.Controls.NavigationViewSelectionChangedEventArgs args)
         {
             if (args.IsSettingsSelected)
             {
@@ -165,7 +165,7 @@ namespace ModernWpf.SampleApp.ControlPages
             }
             else
             {
-                var selectedItem = (ModernWpf.Controls.NavigationViewItem)args.SelectedItem;
+                var selectedItem = (Glasssix.MicaUI.Controls.NavigationViewItem)args.SelectedItem;
                 string pageName = "SamplesCommon.SamplePages." + (string)selectedItem.Tag;
                 Type pageType = typeof(SamplePage1).Assembly.GetType(pageName);
 
@@ -173,7 +173,7 @@ namespace ModernWpf.SampleApp.ControlPages
             }
         }
 
-        private void NavigationView_SelectionChanged8(ModernWpf.Controls.NavigationView sender, ModernWpf.Controls.NavigationViewSelectionChangedEventArgs args)
+        private void NavigationView_SelectionChanged8(Glasssix.MicaUI.Controls.NavigationView sender, Glasssix.MicaUI.Controls.NavigationViewSelectionChangedEventArgs args)
         {
             /* NOTE: for this function to work, every NavigationView must follow the same naming convention: nvSample# (i.e. nvSample3),
             and every corresponding content frame must follow the same naming convention: contentFrame# (i.e. contentFrame3) */
@@ -188,7 +188,7 @@ namespace ModernWpf.SampleApp.ControlPages
             }
             else
             {
-                var selectedItem = (ModernWpf.Controls.NavigationViewItem)args.SelectedItem;
+                var selectedItem = (Glasssix.MicaUI.Controls.NavigationViewItem)args.SelectedItem;
                 string selectedItemTag = ((string)selectedItem.Tag);
                 sender.Header = "Sample Page " + selectedItemTag.Substring(selectedItemTag.Length - 1);
                 string pageName = "SamplesCommon.SamplePages." + selectedItemTag;
@@ -244,11 +244,11 @@ namespace ModernWpf.SampleApp.ControlPages
         {
             if ((sender as CheckBox).IsChecked == true)
             {
-                nvSample.IsBackButtonVisible = ModernWpf.Controls.NavigationViewBackButtonVisible.Visible;
+                nvSample.IsBackButtonVisible = Glasssix.MicaUI.Controls.NavigationViewBackButtonVisible.Visible;
             }
             else
             {
-                nvSample.IsBackButtonVisible = ModernWpf.Controls.NavigationViewBackButtonVisible.Collapsed;
+                nvSample.IsBackButtonVisible = Glasssix.MicaUI.Controls.NavigationViewBackButtonVisible.Collapsed;
             }
         }
 
@@ -311,13 +311,13 @@ namespace ModernWpf.SampleApp.ControlPages
             {
                 if ((sender as RadioButton).Name == "nvSampleLeft" && nvSample != null)
                 {
-                    nvSample.PaneDisplayMode = ModernWpf.Controls.NavigationViewPaneDisplayMode.Left;
+                    nvSample.PaneDisplayMode = Glasssix.MicaUI.Controls.NavigationViewPaneDisplayMode.Left;
                     nvSample.IsPaneOpen = true;
                     FooterStackPanel.Orientation = Orientation.Vertical;
                 }
                 else if ((sender as RadioButton).Name == "nvSample8Left" && nvSample8 != null)
                 {
-                    nvSample8.PaneDisplayMode = ModernWpf.Controls.NavigationViewPaneDisplayMode.Left;
+                    nvSample8.PaneDisplayMode = Glasssix.MicaUI.Controls.NavigationViewPaneDisplayMode.Left;
                     nvSample8.IsPaneOpen = true;
                 }
             }
@@ -330,13 +330,13 @@ namespace ModernWpf.SampleApp.ControlPages
             {
                 if ((sender as RadioButton).Name == "nvSampleTop" && nvSample != null)
                 {
-                    nvSample.PaneDisplayMode = ModernWpf.Controls.NavigationViewPaneDisplayMode.Top;
+                    nvSample.PaneDisplayMode = Glasssix.MicaUI.Controls.NavigationViewPaneDisplayMode.Top;
                     nvSample.IsPaneOpen = false;
                     FooterStackPanel.Orientation = Orientation.Horizontal;
                 }
                 else if ((sender as RadioButton).Name == "nvSample8Top" && nvSample8 != null)
                 {
-                    nvSample8.PaneDisplayMode = ModernWpf.Controls.NavigationViewPaneDisplayMode.Top;
+                    nvSample8.PaneDisplayMode = Glasssix.MicaUI.Controls.NavigationViewPaneDisplayMode.Top;
                     nvSample8.IsPaneOpen = false;
                 }
             }
@@ -348,7 +348,7 @@ namespace ModernWpf.SampleApp.ControlPages
             {
                 if ((sender as RadioButton).Name == "nvSample8LeftCompact" && nvSample8 != null)
                 {
-                    nvSample8.PaneDisplayMode = ModernWpf.Controls.NavigationViewPaneDisplayMode.LeftCompact;
+                    nvSample8.PaneDisplayMode = Glasssix.MicaUI.Controls.NavigationViewPaneDisplayMode.LeftCompact;
                     nvSample8.IsPaneOpen = false;
                 }
             }
@@ -358,11 +358,11 @@ namespace ModernWpf.SampleApp.ControlPages
         {
             if ((sender as CheckBox).IsChecked == true)
             {
-                nvSample.SelectionFollowsFocus = ModernWpf.Controls.NavigationViewSelectionFollowsFocus.Enabled;
+                nvSample.SelectionFollowsFocus = Glasssix.MicaUI.Controls.NavigationViewSelectionFollowsFocus.Enabled;
             }
             else
             {
-                nvSample.SelectionFollowsFocus = ModernWpf.Controls.NavigationViewSelectionFollowsFocus.Disabled;
+                nvSample.SelectionFollowsFocus = Glasssix.MicaUI.Controls.NavigationViewSelectionFollowsFocus.Disabled;
             }
         }
 

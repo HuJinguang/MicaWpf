@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Controls.Primitives;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents a control for indicating notifications, alerts, new content, or to attract focus to an area within an app.

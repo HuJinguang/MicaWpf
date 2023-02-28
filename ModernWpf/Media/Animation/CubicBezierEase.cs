@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Windows;
 using System.Windows.Media.Animation;
 
-namespace ModernWpf.Media.Animation
+namespace Glasssix.MicaUI.Media.Animation
 {
     public class CubicBezierEase : EasingFunctionBase
     {

@@ -1,8 +1,8 @@
-﻿using ModernWpf.Controls;
+﻿using Glasssix.MicaUI.Controls;
 using System;
 using System.Windows.Markup;
 
-namespace ModernWpf.SampleApp.Common
+namespace Glasssix.MicaUI.SampleApp.Common
 {
     [MarkupExtensionReturnType(typeof(FontIcon))]
     public class FontIconExtension : MarkupExtension

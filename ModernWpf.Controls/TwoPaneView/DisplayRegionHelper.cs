@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class DisplayRegionHelper
     {

@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls.Primitives;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     public static class ScrollBarThumbHelper
     {

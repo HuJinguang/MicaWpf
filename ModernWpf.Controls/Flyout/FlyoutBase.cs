@@ -9,7 +9,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Threading;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     public abstract class FlyoutBase : DependencyObject
     {

@@ -1,4 +1,4 @@
-﻿using ModernWpf.Controls.Primitives;
+﻿using Glasssix.MicaUI.Controls.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Windows.Media;
 using Windows.System;
 using Windows.Win32;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     public static class AcrylicHelper
     {

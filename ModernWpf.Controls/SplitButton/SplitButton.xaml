@@ -2,12 +2,12 @@
 <ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:ModernWpf.Controls"
+    xmlns:local="clr-namespace:Glasssix.MicaUI.Controls"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
     xmlns:ui="http://schemas.modernwpf.com/2019">
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="/ModernWpf;component/Styles/Button.xaml" />
+        <ResourceDictionary Source="/Glasssix.MicaUI;component/Styles/Button.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
     <sys:Double x:Key="SplitButtonPrimaryButtonSize">32</sys:Double>

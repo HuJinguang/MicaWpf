@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows;
 
-namespace ModernWpf.DesignTime
+namespace Glasssix.MicaUI.DesignTime
 {
     public static class Design
     {

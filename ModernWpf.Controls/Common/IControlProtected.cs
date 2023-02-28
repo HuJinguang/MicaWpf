@@ -3,7 +3,7 @@
 
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal interface IControlProtected
     {

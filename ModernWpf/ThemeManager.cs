@@ -1,4 +1,4 @@
-﻿using ModernWpf.DesignTime;
+﻿using Glasssix.MicaUI.DesignTime;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Windows.Data;
 using System.Windows.Media;
 using System.Windows.Threading;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     public class ThemeManager : DependencyObject
     {
@@ -86,7 +86,7 @@ namespace ModernWpf
                 nameof(ActualApplicationTheme),
                 typeof(ApplicationTheme),
                 typeof(ThemeManager),
-                new PropertyMetadata(ModernWpf.ApplicationTheme.Light, OnActualApplicationThemeChanged));
+                new PropertyMetadata(Glasssix.MicaUI.ApplicationTheme.Light, OnActualApplicationThemeChanged));
 
         public static readonly DependencyProperty ActualApplicationThemeProperty =
             ActualApplicationThemePropertyKey.DependencyProperty;
@@ -104,10 +104,10 @@ namespace ModernWpf
 
             switch (newValue)
             {
-                case ModernWpf.ApplicationTheme.Light:
+                case Glasssix.MicaUI.ApplicationTheme.Light:
                     tm._defaultActualTheme = ElementTheme.Light;
                     break;
-                case ModernWpf.ApplicationTheme.Dark:
+                case Glasssix.MicaUI.ApplicationTheme.Dark:
                     tm._defaultActualTheme = ElementTheme.Dark;
                     break;
             }
@@ -125,7 +125,7 @@ namespace ModernWpf
             }
             else
             {
-                ActualApplicationTheme = ApplicationTheme ?? ModernWpf.ApplicationTheme.Light;
+                ActualApplicationTheme = ApplicationTheme ?? Glasssix.MicaUI.ApplicationTheme.Light;
             }
         }
 
@@ -477,7 +477,7 @@ namespace ModernWpf
                 "InheritedApplicationTheme",
                 typeof(ApplicationTheme),
                 typeof(ThemeManager),
-                new PropertyMetadata(ModernWpf.ApplicationTheme.Light, OnInheritedApplicationThemeChanged));
+                new PropertyMetadata(Glasssix.MicaUI.ApplicationTheme.Light, OnInheritedApplicationThemeChanged));
 
         private static void OnInheritedApplicationThemeChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
@@ -730,7 +730,7 @@ namespace ModernWpf
 
         private static ApplicationTheme GetDefaultAppTheme()
         {
-            return ColorsHelper.Current.SystemTheme.GetValueOrDefault(ModernWpf.ApplicationTheme.Light);
+            return ColorsHelper.Current.SystemTheme.GetValueOrDefault(Glasssix.MicaUI.ApplicationTheme.Light);
         }
 
         private static Uri GetDefaultSource(string theme)

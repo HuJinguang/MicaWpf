@@ -8,7 +8,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Markup;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     //[ContentProperty(nameof(Templates))]
     public class RecyclingElementFactory : ElementFactory

@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public delegate void ItemClickEventHandler(object sender, ItemClickEventArgs e);
 

@@ -1,6 +1,6 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.SampleApp.ControlPages;
-using ModernWpf.SampleApp.DataModel;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.SampleApp.ControlPages;
+using Glasssix.MicaUI.SampleApp.DataModel;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -17,7 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     /// <summary>
     /// NewControlsPage.xaml 的交互逻辑

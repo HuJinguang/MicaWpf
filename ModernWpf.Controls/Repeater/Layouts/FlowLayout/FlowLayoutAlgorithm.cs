@@ -6,7 +6,7 @@ using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class FlowLayoutAlgorithm
     {

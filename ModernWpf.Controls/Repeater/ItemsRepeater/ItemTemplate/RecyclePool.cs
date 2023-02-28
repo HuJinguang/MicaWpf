@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Xaml;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class RecyclePool
     {

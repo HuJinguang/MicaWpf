@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Windows;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal static class MenuDropAlignmentHelper
     {

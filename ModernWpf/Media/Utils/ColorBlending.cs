@@ -3,7 +3,7 @@
 
 using System;
 
-namespace ModernWpf.Media.Utils
+namespace Glasssix.MicaUI.Media.Utils
 {
     internal enum ColorBlendMode { Burn, Darken, Dodge, Lighten, Multiply, Overlay, Screen };
 

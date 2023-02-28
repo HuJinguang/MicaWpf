@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Windows;
 using System.Windows.Media.Animation;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal static class VisualStateGroupHelper
     {

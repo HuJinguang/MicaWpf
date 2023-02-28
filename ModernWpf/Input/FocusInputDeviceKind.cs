@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Input
+﻿namespace Glasssix.MicaUI.Input
 {
     internal enum FocusInputDeviceKind
     {

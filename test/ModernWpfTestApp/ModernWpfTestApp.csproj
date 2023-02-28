@@ -9,9 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ModernWpf.Controls\ModernWpf.Controls.csproj" />
+    <ProjectReference Include="..\..\ModernWpf.Controls\Glasssix.MicaUI.Controls.csproj" />
     <ProjectReference Include="..\..\ModernWpf.MahApps\ModernWpf.MahApps.csproj" />
-    <ProjectReference Include="..\..\ModernWpf\ModernWpf.csproj" />
+    <ProjectReference Include="..\..\ModernWpf\Glasssix.MicaUI.csproj" />
     <ProjectReference Include="..\TestAppUtils\TestAppUtils.csproj" />
   </ItemGroup>
 

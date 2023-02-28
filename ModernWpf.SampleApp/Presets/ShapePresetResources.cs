@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 
-namespace ModernWpf.SampleApp.Presets
+namespace Glasssix.MicaUI.SampleApp.Presets
 {
     public class ShapePresetResources : ResourceDictionary
     {

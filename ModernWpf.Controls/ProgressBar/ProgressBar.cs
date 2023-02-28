@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Controls.Primitives;
 using System;
 using System.Windows;
 using System.Windows.Automation.Peers;
@@ -10,9 +10,9 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Media;
 using System.Windows.Shapes;
 using System.Windows.Threading;
-using ProgressBarAutomationPeer = ModernWpf.Automation.Peers.ProgressBarAutomationPeer;
+using ProgressBarAutomationPeer = Glasssix.MicaUI.Automation.Peers.ProgressBarAutomationPeer;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents a control that indicates the progress of an operation, where the typical

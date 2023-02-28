@@ -2,9 +2,9 @@
 <ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:animation="clr-namespace:ModernWpf.Media.Animation"
-    xmlns:local="clr-namespace:ModernWpf.Controls"
-    xmlns:primitives="clr-namespace:ModernWpf.Controls.Primitives"
+    xmlns:animation="clr-namespace:Glasssix.MicaUI.Media.Animation"
+    xmlns:local="clr-namespace:Glasssix.MicaUI.Controls"
+    xmlns:primitives="clr-namespace:Glasssix.MicaUI.Controls.Primitives"
     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <Style x:Key="DefaultRadioButtonStyle" TargetType="RadioButton">

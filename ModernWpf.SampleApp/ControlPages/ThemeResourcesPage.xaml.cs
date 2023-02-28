@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class ThemeResourcesPage
     {

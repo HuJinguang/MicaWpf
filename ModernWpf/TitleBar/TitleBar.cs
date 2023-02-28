@@ -1,10 +1,10 @@
-﻿using ModernWpf.Controls.Primitives;
+﻿using Glasssix.MicaUI.Controls.Primitives;
 using System;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     [StyleTypedProperty(Property = StylePropertyName, StyleTargetType = typeof(TitleBarControl))]
     [StyleTypedProperty(Property = ButtonStylePropertyName, StyleTargetType = typeof(TitleBarButton))]

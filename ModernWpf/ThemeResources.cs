@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Windows;
 using System.Windows.Media;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     public class ThemeResources : ResourceDictionaryEx, ISupportInitialize
     {

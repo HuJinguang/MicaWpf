@@ -11,7 +11,7 @@ using System.Windows.Interop;
 using System.Windows.Media;
 using Windows.Win32;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     /// <summary>
     /// Brings the Snap Layout functionality from Windows 11 to a custom <see cref="Controls.TitleBar"/>.

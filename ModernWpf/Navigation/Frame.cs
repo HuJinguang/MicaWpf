@@ -1,4 +1,4 @@
-﻿using ModernWpf.Media.Animation;
+﻿using Glasssix.MicaUI.Media.Animation;
 using System;
 using System.Collections.Specialized;
 using System.Diagnostics;
@@ -9,7 +9,7 @@ using System.Windows.Navigation;
 using System.Windows.Threading;
 using System.Xaml;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Displays Page instances, supports navigation to new pages, and maintains a navigation

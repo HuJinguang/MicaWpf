@@ -5,7 +5,7 @@ using System;
 using System.Diagnostics;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal enum ElementOwner
     {

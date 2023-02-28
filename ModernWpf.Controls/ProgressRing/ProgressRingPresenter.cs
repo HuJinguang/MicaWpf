@@ -3,9 +3,9 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Media;
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Controls.Primitives;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class ProgressRingPresenter : Control
     {

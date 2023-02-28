@@ -8,7 +8,7 @@ using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class InspectingDataSource : ItemsSourceView
     {

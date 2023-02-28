@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Controls.Primitives
+﻿namespace Glasssix.MicaUI.Controls.Primitives
 {
     /// <summary>
     /// Defines constants that specify input-specific transition animations that are

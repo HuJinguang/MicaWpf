@@ -9,14 +9,14 @@ using System.Windows.Automation;
 using System.Windows.Automation.Peers;
 using System.Windows.Controls;
 using System.Windows.Input;
-using ModernWpf.Automation.Peers;
-using ModernWpf.Controls.Primitives;
-using ModernWpf.Input;
+using Glasssix.MicaUI.Automation.Peers;
+using Glasssix.MicaUI.Controls.Primitives;
+using Glasssix.MicaUI.Input;
 using static CppWinRTHelpers;
-using static ModernWpf.Controls.NavigationViewItemHelper;
+using static Glasssix.MicaUI.Controls.NavigationViewItemHelper;
 using PointerRoutedEventArgs = System.Windows.Input.MouseEventArgs;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public partial class NavigationViewItem : NavigationViewItemBase
     {

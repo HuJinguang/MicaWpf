@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Markup;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public partial class RelativePanel
     {

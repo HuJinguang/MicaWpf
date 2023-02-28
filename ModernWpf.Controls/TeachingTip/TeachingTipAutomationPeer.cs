@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Automation.Peers;
 using System.Windows.Automation;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class TeachingTipAutomationPeer : FrameworkElementAutomationPeer
     {

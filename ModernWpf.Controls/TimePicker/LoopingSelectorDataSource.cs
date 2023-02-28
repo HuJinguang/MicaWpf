@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal class LoopingSelectorDataSource : IList
     {

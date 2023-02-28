@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     /// <summary>
     /// Represents a method that handles the completed event of a deferred action.

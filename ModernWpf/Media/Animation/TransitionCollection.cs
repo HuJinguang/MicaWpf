@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace ModernWpf.Media.Animation
+namespace Glasssix.MicaUI.Media.Animation
 {
     /// <summary>
     /// Represents a collection of Transition objects. Each Transition object represents

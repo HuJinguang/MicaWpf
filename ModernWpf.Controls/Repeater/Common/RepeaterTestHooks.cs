@@ -1,8 +1,8 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using ModernWpf;
-using ModernWpf.Controls;
+using Glasssix.MicaUI;
+using Glasssix.MicaUI.Controls;
 
 namespace Microsoft.UI.Private.Controls
 {

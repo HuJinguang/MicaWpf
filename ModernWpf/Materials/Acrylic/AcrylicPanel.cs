@@ -1,6 +1,6 @@
 ﻿// Ported from https://github.com/sourcechord/FluentWPF/blob/master/FluentWPF/AcrylicPanel.cs
 
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Controls.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -17,7 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernWpf.Media
+namespace Glasssix.MicaUI.Media
 {
     public class AcrylicPanel : ContentControl
     {

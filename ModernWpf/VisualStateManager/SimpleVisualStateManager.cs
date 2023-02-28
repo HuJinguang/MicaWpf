@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     /// <summary>
     ///     Manages visual states and their transitions on a control.

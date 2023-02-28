@@ -6,7 +6,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Threading;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     [TemplatePart(Name = OverflowPopupName, Type = typeof(Popup))]
     public class CommandBarToolBar : ToolBar

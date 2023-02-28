@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace ModernWpf.SampleApp.Helpers
+namespace Glasssix.MicaUI.SampleApp.Helpers
 {
     // RECT structure required by WINDOWPLACEMENT structure
     [Serializable]

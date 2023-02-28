@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Default styles for controls.

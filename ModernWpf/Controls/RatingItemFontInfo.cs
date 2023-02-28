@@ -3,7 +3,7 @@
 
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents information about the visual states of font elements that represent

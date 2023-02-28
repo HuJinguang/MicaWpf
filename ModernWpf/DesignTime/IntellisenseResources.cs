@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.DesignTime
+﻿namespace Glasssix.MicaUI.DesignTime
 {
     public class IntellisenseResources : IntellisenseResourcesBase
     {

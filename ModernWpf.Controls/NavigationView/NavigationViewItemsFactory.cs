@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     class NavigationViewItemsFactory : ElementFactory
     {

@@ -1,10 +1,10 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.Media.Animation;
-using ModernWpf.SampleApp.SamplePages;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.Media.Animation;
+using Glasssix.MicaUI.SampleApp.SamplePages;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class CompactSizingPage : Page
     {

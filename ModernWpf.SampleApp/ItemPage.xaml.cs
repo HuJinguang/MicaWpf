@@ -1,6 +1,6 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.SampleApp.DataModel;
-using ModernWpf.SampleApp.Properties;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.SampleApp.DataModel;
+using Glasssix.MicaUI.SampleApp.Properties;
 using SamplesCommon;
 using System;
 using System.Collections.Generic;
@@ -20,10 +20,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Windows.System.Profile;
-using Frame = ModernWpf.Controls.Frame;
-using Page = ModernWpf.Controls.Page;
+using Frame = Glasssix.MicaUI.Controls.Frame;
+using Page = Glasssix.MicaUI.Controls.Page;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     /// <summary>
     /// ItemPage.xaml 的交互逻辑

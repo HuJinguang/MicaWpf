@@ -3,9 +3,9 @@
 
 using System.Windows.Automation.Peers;
 using System.Windows.Automation.Provider;
-using ModernWpf.Controls;
+using Glasssix.MicaUI.Controls;
 
-namespace ModernWpf.Automation.Peers
+namespace Glasssix.MicaUI.Automation.Peers
 {
     internal class NavigationViewAutomationPeer : FrameworkElementAutomationPeer, ISelectionProvider
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ModernWpf.Input
+namespace Glasssix.MicaUI.Input
 {
     internal sealed class TappedRoutedEventArgs : RoutedEventArgs
     {

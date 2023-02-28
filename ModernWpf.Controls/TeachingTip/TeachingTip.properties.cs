@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Controls.Primitives;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public partial class TeachingTip
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class RoutedEventHandlerRevoker
     {

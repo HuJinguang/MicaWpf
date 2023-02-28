@@ -1,4 +1,4 @@
-﻿namespace ModernWpf
+﻿namespace Glasssix.MicaUI
 {
     /// <summary>
     /// Represents a method that handles general events.

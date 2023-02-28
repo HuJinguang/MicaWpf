@@ -11,9 +11,9 @@ using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Markup;
 using System.Windows.Media;
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Controls.Primitives;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     [ContentProperty(nameof(Items))]
     [TemplatePart(Name = s_repeaterName, Type = typeof(ItemsRepeater))]

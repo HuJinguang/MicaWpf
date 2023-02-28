@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Markup
+﻿namespace Glasssix.MicaUI.Markup
 {
     public class StaticResourceExtension : System.Windows.StaticResourceExtension
     {

@@ -3,7 +3,7 @@
 
 using System.Windows;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     public sealed class CommandBarFlyoutCommandBarTemplateSettings : DependencyObject
     {

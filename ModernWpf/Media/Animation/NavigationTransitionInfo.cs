@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Media.Animation;
 
-namespace ModernWpf.Media.Animation
+namespace Glasssix.MicaUI.Media.Animation
 {
     /// <summary>
     /// Provides parameter info for the Frame.Navigate method. Controls how the transition

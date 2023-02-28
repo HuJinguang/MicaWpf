@@ -16,13 +16,13 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shell;
 using System.Windows.Threading;
-using ModernWpf.Automation.Peers;
-using ModernWpf.Input;
-using ModernWpf.Media.Animation;
+using Glasssix.MicaUI.Automation.Peers;
+using Glasssix.MicaUI.Input;
+using Glasssix.MicaUI.Media.Animation;
 using static CppWinRTHelpers;
-using static ModernWpf.ResourceAccessor;
+using static Glasssix.MicaUI.ResourceAccessor;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     enum TopNavigationViewLayoutState
     {

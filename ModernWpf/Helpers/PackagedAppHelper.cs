@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     public static class PackagedAppHelper
     {

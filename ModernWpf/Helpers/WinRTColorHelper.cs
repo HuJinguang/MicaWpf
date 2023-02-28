@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Windows.Media;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal static class WinRTColorHelper
     {

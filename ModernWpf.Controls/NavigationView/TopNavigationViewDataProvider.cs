@@ -6,10 +6,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
-using SplitDataSourceT = ModernWpf.Controls.SplitDataSourceBase<object, ModernWpf.Controls.NavigationViewSplitVectorID, double>;
-using SplitVectorT = ModernWpf.Controls.SplitVector<object, ModernWpf.Controls.NavigationViewSplitVectorID>;
+using SplitDataSourceT = Glasssix.MicaUI.Controls.SplitDataSourceBase<object, Glasssix.MicaUI.Controls.NavigationViewSplitVectorID, double>;
+using SplitVectorT = Glasssix.MicaUI.Controls.SplitVector<object, Glasssix.MicaUI.Controls.NavigationViewSplitVectorID>;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     enum NavigationViewSplitVectorID
     {

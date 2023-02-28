@@ -1,4 +1,4 @@
-﻿using ModernWpf;
+﻿using Glasssix.MicaUI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     /// <summary>
     /// Interaction logic for DatePickerPage.xaml

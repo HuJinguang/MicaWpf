@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Input;
 
-namespace ModernWpf.Input
+namespace Glasssix.MicaUI.Input
 {
     internal class GettingFocusHelper : IDisposable
     {

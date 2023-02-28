@@ -15,12 +15,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using Windows.Foundation.Metadata;
 using System.Windows.Markup;
-using ModernWpf.SampleApp.Controls;
+using Glasssix.MicaUI.SampleApp.Controls;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Collections;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     /// <summary>
     /// Describes a textual substitution in sample content.

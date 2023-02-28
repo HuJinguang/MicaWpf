@@ -5,10 +5,10 @@ using System.Windows.Automation.Peers;
 using System.Windows.Controls.Primitives;
 using System.Windows.Documents;
 using System.Windows.Navigation;
-using ModernWpf.Automation.Peers;
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Automation.Peers;
+using Glasssix.MicaUI.Controls.Primitives;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class HyperlinkButton : ButtonBase
     {

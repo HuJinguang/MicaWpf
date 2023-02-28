@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModernWpf\ModernWpf.csproj" />
+    <ProjectReference Include="..\ModernWpf\Glasssix.MicaUI.csproj" />
   </ItemGroup>
 
 </Project>

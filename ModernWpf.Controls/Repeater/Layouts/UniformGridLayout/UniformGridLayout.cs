@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class UniformGridLayout : VirtualizingLayout, IFlowLayoutAlgorithmDelegates
     {

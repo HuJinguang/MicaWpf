@@ -1,7 +1,7 @@
 ﻿using SamplesCommon;
 using System;
 
-namespace ModernWpf.SampleApp.Presets
+namespace Glasssix.MicaUI.SampleApp.Presets
 {
     public class PresetManager : BindableBase
     {

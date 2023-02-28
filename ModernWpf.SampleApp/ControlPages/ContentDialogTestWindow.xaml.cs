@@ -1,9 +1,9 @@
-﻿using ModernWpf.Controls;
+﻿using Glasssix.MicaUI.Controls;
 using SamplesCommon;
 using System;
 using System.Windows;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class ContentDialogTestWindow : Window
     {

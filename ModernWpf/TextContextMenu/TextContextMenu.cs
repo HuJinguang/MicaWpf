@@ -1,13 +1,13 @@
-﻿using ModernWpf.Controls.Primitives;
+﻿using Glasssix.MicaUI.Controls.Primitives;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Documents;
 using System.Windows.Input;
-using static ModernWpf.ResourceAccessor;
+using static Glasssix.MicaUI.ResourceAccessor;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents a specialized context menu that contains commands for editing text.

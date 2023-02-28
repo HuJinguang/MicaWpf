@@ -3,7 +3,7 @@
 
 using System.Diagnostics;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     // Inclusive range [start, end]
     internal class IndexRange

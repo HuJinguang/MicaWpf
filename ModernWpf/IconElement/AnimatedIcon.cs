@@ -9,7 +9,7 @@ using System.Windows.Controls;
 using System.Windows.Markup;
 using System.Windows.Media;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents an icon that displays and controls a visual that can animate in response to user interaction and visual state changes.

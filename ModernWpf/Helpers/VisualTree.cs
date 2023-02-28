@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Media;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     /// <summary>
     /// Defines a collection of extensions methods for UI.

@@ -1,5 +1,5 @@
-﻿using ModernWpf.Controls.Primitives;
-using ModernWpf.Markup;
+﻿using Glasssix.MicaUI.Controls.Primitives;
+using Glasssix.MicaUI.Markup;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +17,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents the playback controls for a media player element.

@@ -5,7 +5,7 @@ using Microsoft.Win32;
 using Windows.Foundation.Metadata;
 using Windows.UI.ViewManagement;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal class UISettingsResources : ResourceDictionary
     {

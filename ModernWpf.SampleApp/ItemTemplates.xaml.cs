@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     /// <summary>
     /// ItemTemplates.xaml 的交互逻辑

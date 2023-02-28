@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Media;
-using ModernWpf.Media.Utils;
+using Glasssix.MicaUI.Media.Utils;
 
-namespace ModernWpf.Media.ColorPalette
+namespace Glasssix.MicaUI.Media.ColorPalette
 {
     // These classes are not intended to be viewmodels.
     // They deal with the data about an editable palette and are passed to special purpose controls for editing

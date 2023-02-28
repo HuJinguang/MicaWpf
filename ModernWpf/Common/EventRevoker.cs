@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal abstract class EventRevoker<TSource, TDelegate>
         where TSource : class

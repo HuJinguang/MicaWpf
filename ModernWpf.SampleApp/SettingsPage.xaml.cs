@@ -1,4 +1,4 @@
-﻿using ModernWpf.Navigation;
+﻿using Glasssix.MicaUI.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,13 +16,13 @@ using Windows.Foundation;
 using Windows.Storage.Pickers;
 using Windows.Storage;
 using Windows.System;
-using ModernWpf.Controls;
+using Glasssix.MicaUI.Controls;
 using System.Windows.Controls;
-using Page = ModernWpf.Controls.Page;
-using ModernWpf.SampleApp.Helper;
+using Page = Glasssix.MicaUI.Controls.Page;
+using Glasssix.MicaUI.SampleApp.Helper;
 using System.Reflection;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     /// <summary>
     /// SettingsPage.xaml 的交互逻辑

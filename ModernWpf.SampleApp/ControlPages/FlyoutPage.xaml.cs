@@ -1,8 +1,8 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.Controls.Primitives;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.Controls.Primitives;
 using System.Windows;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class FlyoutPage : Page
     {

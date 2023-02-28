@@ -1,8 +1,8 @@
 ﻿<ui:Page
-    x:Class="ModernWpf.SampleApp.ControlPages.SplitViewPage"
+    x:Class="Glasssix.MicaUI.SampleApp.ControlPages.SplitViewPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:ModernWpf.SampleApp.ControlPages"
+    xmlns:local="clr-namespace:Glasssix.MicaUI.SampleApp.ControlPages"
     xmlns:sc="clr-namespace:SamplesCommon;assembly=SamplesCommon"
     xmlns:ui="http://schemas.modernwpf.com/2019"
     DataContext="{Binding RelativeSource={RelativeSource Self}}">

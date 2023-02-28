@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 
-namespace ModernWpf.SampleApp.ThreadedUI
+namespace Glasssix.MicaUI.SampleApp.ThreadedUI
 {
     public class ThreadedVisualHost : ThreadedVisualHostBase
     {

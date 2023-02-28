@@ -5,10 +5,10 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Threading;
 using Microsoft.Win32;
-using ModernWpf.Media.ColorPalette;
+using Glasssix.MicaUI.Media.ColorPalette;
 using Windows.UI.ViewManagement;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal class ColorsHelper : DispatcherObject
     {

@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Controls
+﻿namespace Glasssix.MicaUI.Controls
 {
     public enum CommandBarOverflowButtonVisibility
     {

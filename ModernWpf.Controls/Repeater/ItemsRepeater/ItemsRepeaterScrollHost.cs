@@ -9,7 +9,7 @@ using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Markup;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     // TODO: move to framework level element tracking.
     [ContentProperty(nameof(ScrollViewer))]

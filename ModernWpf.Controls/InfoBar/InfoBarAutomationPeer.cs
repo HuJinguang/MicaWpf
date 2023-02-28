@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Automation.Peers;
 using System.Windows.Automation.Provider;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class InfoBarAutomationPeer : FrameworkElementAutomationPeer
     {

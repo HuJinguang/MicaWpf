@@ -7,9 +7,9 @@
 // PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
 //
 //*********************************************************
-using ModernWpf.Controls;
-using ModernWpf.Media.Animation;
-using ModernWpf.SampleApp.DataModel;
+using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.Media.Animation;
+using Glasssix.MicaUI.SampleApp.DataModel;
 using SamplesCommon;
 using System;
 using System.Collections.Generic;
@@ -19,10 +19,10 @@ using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using GridView = ModernWpf.Controls.GridView;
-using Page = ModernWpf.Controls.Page;
+using GridView = Glasssix.MicaUI.Controls.GridView;
+using Page = Glasssix.MicaUI.Controls.Page;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     public abstract class ItemsPageBase : Page, INotifyPropertyChanged
     {

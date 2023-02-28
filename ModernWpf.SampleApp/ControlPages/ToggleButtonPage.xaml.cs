@@ -1,5 +1,5 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.SampleApp.Common;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.SampleApp.Common;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -16,9 +16,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Page = ModernWpf.Controls.Page;
+using Page = Glasssix.MicaUI.Controls.Page;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     /// <summary>
     /// ToggleButtonPage.xaml 的交互逻辑

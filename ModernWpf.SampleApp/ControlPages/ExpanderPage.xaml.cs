@@ -1,12 +1,12 @@
-﻿using ModernWpf.Controls;
+﻿using Glasssix.MicaUI.Controls;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using Page = ModernWpf.Controls.Page;
+using Page = Glasssix.MicaUI.Controls.Page;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class ExpanderPage : Page
     {

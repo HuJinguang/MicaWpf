@@ -6,9 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Automation.Peers;
-using ModernWpf.Controls;
+using Glasssix.MicaUI.Controls;
 
-namespace ModernWpf.Automation.Peers
+namespace Glasssix.MicaUI.Automation.Peers
 {
     public class RepeaterAutomationPeer : FrameworkElementAutomationPeer
     {

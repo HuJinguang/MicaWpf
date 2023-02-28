@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Automation;
 using System.Windows.Automation.Peers;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class PipsPagerAutomationPeer : FrameworkElementAutomationPeer
     {

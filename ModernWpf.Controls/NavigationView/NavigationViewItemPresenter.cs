@@ -6,11 +6,11 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
-using ModernWpf.Input;
+using Glasssix.MicaUI.Input;
 using static CppWinRTHelpers;
-using static ModernWpf.Controls.NavigationViewItemHelper;
+using static Glasssix.MicaUI.Controls.NavigationViewItemHelper;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     public class NavigationViewItemPresenter : ContentControl, IControlProtected
     {

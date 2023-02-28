@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal static class DelegateHelper
     {

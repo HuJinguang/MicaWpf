@@ -1,6 +1,6 @@
 ﻿using System.Windows.Media;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal static class Extensions
     {

@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Threading;
 
-namespace ModernWpf.SampleApp.ThreadedUI
+namespace Glasssix.MicaUI.SampleApp.ThreadedUI
 {
     public abstract class ThreadedVisualHostBase : FrameworkElement
     {

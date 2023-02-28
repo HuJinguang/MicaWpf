@@ -3,9 +3,9 @@
 
 using System.Collections;
 using System.Windows;
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Controls.Primitives;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     partial class NavigationViewItem
     {

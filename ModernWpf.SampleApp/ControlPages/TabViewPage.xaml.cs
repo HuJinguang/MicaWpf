@@ -1,12 +1,12 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.Controls.Primitives;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.Controls.Primitives;
 using SamplesCommon.SamplePages;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
-using Frame = ModernWpf.Controls.Frame;
+using Frame = Glasssix.MicaUI.Controls.Frame;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class TabViewPage
     {

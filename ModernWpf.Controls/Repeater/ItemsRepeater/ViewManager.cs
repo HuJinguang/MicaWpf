@@ -10,7 +10,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Markup;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     // Manages elements on behalf of ItemsRepeater.
     // ViewManager automatically pins focused elements.

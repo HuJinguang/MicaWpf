@@ -8,10 +8,10 @@ using System.Windows.Threading;
 using System.Windows;
 using System.Windows.Controls.Primitives;
 using System.Windows.Controls;
-using ModernWpf.Controls.Primitives;
-using static ModernWpf.ResourceAccessor;
+using Glasssix.MicaUI.Controls.Primitives;
+using static Glasssix.MicaUI.ResourceAccessor;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents a control that allows the user to select a time.

@@ -1,11 +1,11 @@
-﻿using ModernWpf.Controls.Primitives;
+﻿using Glasssix.MicaUI.Controls.Primitives;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Threading;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class DateTimeComponentSelector : ListBox
     {

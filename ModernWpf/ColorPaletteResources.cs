@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Media;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     /// <summary>
     /// Represents a specialized resource dictionary that contains color resources used

@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Media.Animation
+﻿namespace Glasssix.MicaUI.Media.Animation
 {
     /// <summary>
     /// Specifies that animations are suppressed during navigation.

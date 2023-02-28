@@ -9,7 +9,7 @@ using System.Windows;
 using Windows.Data.Json;
 using Windows.Storage;
 
-namespace ModernWpf.SampleApp.DataModel
+namespace Glasssix.MicaUI.SampleApp.DataModel
 {
     /// <summary>
     /// Generic item data model.
@@ -192,7 +192,7 @@ namespace ModernWpf.SampleApp.DataModel
 
             lock (_lock)
             {
-                string pageRoot = "ModernWpf.SampleApp.ControlPages.";
+                string pageRoot = "Glasssix.MicaUI.SampleApp.ControlPages.";
                 foreach (JsonValue groupValue in jsonArray)
                 {
 

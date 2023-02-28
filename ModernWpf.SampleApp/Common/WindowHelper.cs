@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace ModernWpf.SampleApp.Common
+namespace Glasssix.MicaUI.SampleApp.Common
 {
     // Helper class to allow the app to find the Window that contains an
     // arbitrary UIElement (GetWindowForElement).  To do this, we keep track

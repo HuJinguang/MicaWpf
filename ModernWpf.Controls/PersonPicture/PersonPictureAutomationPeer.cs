@@ -2,9 +2,9 @@
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
 using System.Windows.Automation.Peers;
-using ModernWpf.Controls;
+using Glasssix.MicaUI.Controls;
 
-namespace ModernWpf.Automation.Peers
+namespace Glasssix.MicaUI.Automation.Peers
 {
     public class PersonPictureAutomationPeer : FrameworkElementAutomationPeer
     {

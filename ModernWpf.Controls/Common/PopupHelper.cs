@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
 using System.Windows.Controls.Primitives;
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Controls.Primitives;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal static class PopupHelper
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Navigation;
 
-namespace ModernWpf.Navigation
+namespace Glasssix.MicaUI.Navigation
 {
     public static class Extensions
     {

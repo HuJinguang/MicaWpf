@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Controls.Primitives
+﻿namespace Glasssix.MicaUI.Controls.Primitives
 {
     internal class FlyoutBaseClosingRevoker : EventRevoker<FlyoutBase, TypedEventHandler<FlyoutBase, FlyoutBaseClosingEventArgs>>
     {

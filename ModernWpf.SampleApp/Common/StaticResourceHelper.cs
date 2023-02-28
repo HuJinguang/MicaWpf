@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ModernWpf.SampleApp.Common
+namespace Glasssix.MicaUI.SampleApp.Common
 {
     public static class StaticResourceHelper
     {

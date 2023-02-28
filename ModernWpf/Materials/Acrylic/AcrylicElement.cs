@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace ModernWpf.Media
+namespace Glasssix.MicaUI.Media
 {
     internal class AcrylicElement
     {

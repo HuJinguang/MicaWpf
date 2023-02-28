@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Markup;
 
-namespace ModernWpf.Media.Animation
+namespace Glasssix.MicaUI.Media.Animation
 {
     /// <summary>
     /// Provides page navigation animations.

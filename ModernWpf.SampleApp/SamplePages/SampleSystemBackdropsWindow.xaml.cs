@@ -1,4 +1,4 @@
-﻿using ModernWpf.Controls.Primitives;
+﻿using Glasssix.MicaUI.Controls.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Drawing.Drawing2D;
@@ -14,7 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ModernWpf.SampleApp.SamplePages
+namespace Glasssix.MicaUI.SampleApp.SamplePages
 {
     /// <summary>
     /// SampleSystemBackdropsWindow.xaml 的交互逻辑

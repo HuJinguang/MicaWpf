@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     public static class OSVersionHelper
     {

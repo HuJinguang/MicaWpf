@@ -3,7 +3,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Media;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public static class VisualStates
     {

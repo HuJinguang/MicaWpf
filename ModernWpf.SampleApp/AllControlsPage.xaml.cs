@@ -1,5 +1,5 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.SampleApp.DataModel;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.SampleApp.DataModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     /// <summary>
     /// A page that displays a grouped collection of items.

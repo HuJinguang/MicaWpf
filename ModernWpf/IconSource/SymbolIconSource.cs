@@ -3,7 +3,7 @@
 
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents an icon source that uses a glyph from the Segoe MDL2 Assets font as its content.

@@ -1,4 +1,4 @@
-﻿using ModernWpf.SampleApp.Data;
+﻿using Glasssix.MicaUI.SampleApp.Data;
 using System.Diagnostics;
 using System.Linq;
 using System.Windows;
@@ -7,7 +7,7 @@ using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Threading;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class DataGridPage
     {

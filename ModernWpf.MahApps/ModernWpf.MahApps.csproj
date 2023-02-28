@@ -26,10 +26,10 @@
   </ItemGroup>
 	
   <ItemGroup>
-    <ProjectReference Include="..\ModernWpf\ModernWpf.csproj">
+    <ProjectReference Include="..\ModernWpf\Glasssix.MicaUI.csproj">
       <PrivateAssets>all</PrivateAssets>
     </ProjectReference>
-    <ProjectReference Include="..\ModernWpf.Controls\ModernWpf.Controls.csproj" />
+    <ProjectReference Include="..\ModernWpf.Controls\Glasssix.MicaUI.Controls.csproj" />
   </ItemGroup>
 
   <ItemGroup>

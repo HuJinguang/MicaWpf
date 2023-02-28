@@ -1,9 +1,9 @@
 ﻿<ui:Page
-    x:Class="ModernWpf.SampleApp.ControlPages.ViewBoxPage"
+    x:Class="Glasssix.MicaUI.SampleApp.ControlPages.ViewBoxPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:ModernWpf.SampleApp"
+    xmlns:local="clr-namespace:Glasssix.MicaUI.SampleApp"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
     xmlns:ui="http://schemas.modernwpf.com/2019"

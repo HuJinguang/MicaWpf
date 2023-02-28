@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     [EditorBrowsable(EditorBrowsableState.Never)]
     public class FontIconFallback : Control

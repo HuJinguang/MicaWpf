@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using ModernWpf.Controls;
+using Glasssix.MicaUI.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -12,22 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using ModernWpf.SampleApp.ControlPages;
+using Glasssix.MicaUI.SampleApp.ControlPages;
 using Windows.Foundation.Metadata;
 using Windows.System;
-using ModernWpf.SampleApp.DataModel;
+using Glasssix.MicaUI.SampleApp.DataModel;
 using Windows.Gaming.Input;
 using Windows.System.Profile;
 using System.Windows.Automation;
 using System.Diagnostics;
 using Windows.Devices.Input;
-using ModernWpf.SampleApp.Helper;
+using Glasssix.MicaUI.SampleApp.Helper;
 using System.Windows.Controls;
-using Page = ModernWpf.Controls.Page;
-using Frame = ModernWpf.Controls.Frame;
-using ModernWpf.SampleApp.Common;
+using Page = Glasssix.MicaUI.Controls.Page;
+using Frame = Glasssix.MicaUI.Controls.Frame;
+using Glasssix.MicaUI.SampleApp.Common;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     /// <summary>
     /// NavigationRootPage.xaml 的交互逻辑

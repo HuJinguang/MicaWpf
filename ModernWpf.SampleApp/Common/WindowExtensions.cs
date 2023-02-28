@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Interop;
 
-namespace ModernWpf.SampleApp.Helpers
+namespace Glasssix.MicaUI.SampleApp.Helpers
 {
     public static class WindowExtensions
     {

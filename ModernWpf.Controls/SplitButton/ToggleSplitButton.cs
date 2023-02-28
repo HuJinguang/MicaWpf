@@ -4,9 +4,9 @@
 using System.Windows;
 using System.Windows.Automation;
 using System.Windows.Automation.Peers;
-using ModernWpf.Automation.Peers;
+using Glasssix.MicaUI.Automation.Peers;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class ToggleSplitButton : SplitButton
     {

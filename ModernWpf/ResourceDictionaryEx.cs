@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Windows;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     public class ResourceDictionaryEx : ResourceDictionary
     {

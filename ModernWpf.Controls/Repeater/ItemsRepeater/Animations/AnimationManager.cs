@@ -4,7 +4,7 @@
 using System.Collections.Specialized;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     // Internal component that contains all
     // the animation related logic for ItemsRepeater.

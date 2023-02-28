@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class VirtualLayoutContextAdapter : NonVirtualizingLayoutContext
     {

@@ -17,7 +17,7 @@ using System.Windows.Threading;
 using Windows.Win32.Foundation;
 using Windows.Win32.UI.WindowsAndMessaging;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     internal class PopupPositioner : DependencyObject, IDisposable
     {

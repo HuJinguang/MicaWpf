@@ -1,5 +1,5 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.Controls.Primitives;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.Controls.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,9 +13,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Page = ModernWpf.Controls.Page;
+using Page = Glasssix.MicaUI.Controls.Page;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class CommandBarFlyoutPage : Page
     {

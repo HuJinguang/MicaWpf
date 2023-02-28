@@ -8,7 +8,7 @@ using System.Windows.Media;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class MediaPlayerElement : Control
     {

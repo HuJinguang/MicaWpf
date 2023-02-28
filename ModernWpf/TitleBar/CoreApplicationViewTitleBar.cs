@@ -1,8 +1,8 @@
-﻿using ModernWpf.Controls;
+﻿using Glasssix.MicaUI.Controls;
 using System.Windows;
 using System.Windows.Data;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal sealed class CoreApplicationViewTitleBar
     {

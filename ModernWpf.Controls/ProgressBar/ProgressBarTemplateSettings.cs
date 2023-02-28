@@ -4,7 +4,7 @@
 using System.Windows;
 using System.Windows.Media;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     /// <summary>
     /// Provides calculated values that can be referenced as **TemplatedParent** sources

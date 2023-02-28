@@ -7,7 +7,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Media.Animation;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class TeachingTipTestHooks
     {

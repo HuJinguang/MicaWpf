@@ -1,4 +1,4 @@
-﻿using ModernWpf.Controls;
+﻿using Glasssix.MicaUI.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Navigation;
 using Windows.Foundation.Metadata;
 
-namespace ModernWpf.SampleApp.Helper
+namespace Glasssix.MicaUI.SampleApp.Helper
 {
     /// <summary>
     /// RootFrameNavigationHelper registers for standard mouse and keyboard

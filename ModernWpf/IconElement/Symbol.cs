@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Controls
+﻿namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Defines constants that specify a glyph from the **Segoe MDL2 Assets** font to

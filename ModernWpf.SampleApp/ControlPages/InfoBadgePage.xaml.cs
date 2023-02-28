@@ -1,4 +1,4 @@
-﻿using ModernWpf.Controls;
+﻿using Glasssix.MicaUI.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +13,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Page = ModernWpf.Controls.Page;
+using Page = Glasssix.MicaUI.Controls.Page;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     /// <summary>
     /// InfoBadgePage.xaml 的交互逻辑
@@ -71,7 +71,7 @@ namespace ModernWpf.SampleApp.ControlPages
         public void InfoBadgeStyleComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             string infoBadgeStyle = e.AddedItems[0].ToString();
-            ResourceDictionary Resources = new ResourceDictionary { Source = new Uri("/ModernWpf.Controls;component/InfoBadge/InfoBadge.xaml", UriKind.RelativeOrAbsolute) };
+            ResourceDictionary Resources = new ResourceDictionary { Source = new Uri("/Glasssix.MicaUI.Controls;component/InfoBadge/InfoBadge.xaml", UriKind.RelativeOrAbsolute) };
 
             switch (infoBadgeStyle)
             {

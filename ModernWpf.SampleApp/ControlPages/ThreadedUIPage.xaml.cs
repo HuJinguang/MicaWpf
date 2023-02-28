@@ -1,4 +1,4 @@
-﻿using ModernWpf.SampleApp.ThreadedUI;
+﻿using Glasssix.MicaUI.SampleApp.ThreadedUI;
 using SamplesCommon;
 using System;
 using System.Threading;
@@ -6,7 +6,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class ThreadedUIPage
     {

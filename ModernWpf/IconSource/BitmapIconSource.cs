@@ -5,7 +5,7 @@ using System;
 using System.Windows;
 using System.Windows.Media.Imaging;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents an icon source that uses an Image as its content.

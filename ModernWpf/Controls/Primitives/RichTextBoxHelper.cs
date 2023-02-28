@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Windows.Documents;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     public static class RichTextBoxHelper
     {

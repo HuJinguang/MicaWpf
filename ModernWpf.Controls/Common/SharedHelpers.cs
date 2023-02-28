@@ -15,7 +15,7 @@ using System.Windows.Interop;
 using System.Windows.Media;
 using Windows.Win32;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal static class SharedHelpers
     {

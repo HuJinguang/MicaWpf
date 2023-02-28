@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Resources;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal class ResourceAccessor
     {

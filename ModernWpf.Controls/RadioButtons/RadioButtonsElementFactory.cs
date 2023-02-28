@@ -4,7 +4,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal class RadioButtonsElementFactory : ElementFactory
     {

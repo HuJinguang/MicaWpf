@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Media;
 
-namespace ModernWpf.SampleApp.ThreadedUI
+namespace Glasssix.MicaUI.SampleApp.ThreadedUI
 {
     internal class VisualTargetPresentationSource : PresentationSource, IDisposable
     {

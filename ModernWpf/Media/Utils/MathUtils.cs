@@ -3,7 +3,7 @@
 
 using System;
 
-namespace ModernWpf.Media.Utils
+namespace Glasssix.MicaUI.Media.Utils
 {
     internal static class MathUtils
     {

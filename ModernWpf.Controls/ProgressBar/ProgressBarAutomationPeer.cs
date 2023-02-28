@@ -3,10 +3,10 @@
 
 using System.Windows.Automation.Peers;
 using System.Windows.Automation.Provider;
-using ProgressBar = ModernWpf.Controls.ProgressBar;
-using static ModernWpf.ResourceAccessor;
+using ProgressBar = Glasssix.MicaUI.Controls.ProgressBar;
+using static Glasssix.MicaUI.ResourceAccessor;
 
-namespace ModernWpf.Automation.Peers
+namespace Glasssix.MicaUI.Automation.Peers
 {
     /// <summary>
     /// Exposes ProgressBar types to Microsoft UI Automation.

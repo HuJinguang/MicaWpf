@@ -11,7 +11,7 @@ using System.Windows.Data;
 using System.Windows.Media;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class ParallaxView : ContentControl
     {

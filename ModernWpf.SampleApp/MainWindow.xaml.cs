@@ -1,9 +1,9 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.SampleApp.Common;
-using ModernWpf.SampleApp.DataModel;
-using ModernWpf.SampleApp.Helper;
-using ModernWpf.SampleApp.Helpers;
-using ModernWpf.SampleApp.Properties;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.SampleApp.Common;
+using Glasssix.MicaUI.SampleApp.DataModel;
+using Glasssix.MicaUI.SampleApp.Helper;
+using Glasssix.MicaUI.SampleApp.Helpers;
+using Glasssix.MicaUI.SampleApp.Properties;
 using SamplesCommon;
 using System;
 using System.ComponentModel;
@@ -16,7 +16,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Interop;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     public partial class MainWindow
     {

@@ -8,10 +8,10 @@ using System.Windows.Automation.Peers;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Input;
-using ModernWpf.Automation.Peers;
-using static ModernWpf.ResourceAccessor;
+using Glasssix.MicaUI.Automation.Peers;
+using static Glasssix.MicaUI.ResourceAccessor;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class NumberBoxValueChangedEventArgs : EventArgs
     {

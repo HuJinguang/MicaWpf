@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Threading;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     /// <summary>
     /// This class provides static methods helper for executing code in UI thread of the main window.

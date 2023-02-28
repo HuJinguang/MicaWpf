@@ -1,4 +1,4 @@
-﻿namespace ModernWpf.Controls
+﻿namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Defines constants that specify the password reveal behavior of a PasswordBox.

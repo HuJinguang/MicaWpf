@@ -1,11 +1,11 @@
-﻿using ModernWpf.Controls;
+﻿using Glasssix.MicaUI.Controls;
 using System;
 using System.ComponentModel;
 using System.Threading;
 using System.Windows.Controls;
 using System.Windows.Markup;
 
-namespace ModernWpf.Markup
+namespace Glasssix.MicaUI.Markup
 {
     [EditorBrowsable(EditorBrowsableState.Never)]
     [MarkupExtensionReturnType(typeof(ContextMenu))]

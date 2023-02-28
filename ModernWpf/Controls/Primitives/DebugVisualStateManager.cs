@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Windows;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     public class DebugVisualStateManager : VisualStateManager
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     public static class Extensions
     {

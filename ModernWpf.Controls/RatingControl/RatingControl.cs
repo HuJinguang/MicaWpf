@@ -8,10 +8,10 @@ using System.Windows.Automation.Peers;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
-using ModernWpf.Automation.Peers;
-using ModernWpf.Controls.Primitives;
+using Glasssix.MicaUI.Automation.Peers;
+using Glasssix.MicaUI.Controls.Primitives;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     enum RatingControlStates
     {

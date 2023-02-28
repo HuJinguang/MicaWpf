@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
 
-namespace ModernWpf.SampleApp.Data
+namespace Glasssix.MicaUI.SampleApp.Data
 {
     public class DataGridDataSource
     {

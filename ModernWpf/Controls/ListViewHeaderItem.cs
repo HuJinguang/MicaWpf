@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Represents items in the header for grouped data inside a ListView.

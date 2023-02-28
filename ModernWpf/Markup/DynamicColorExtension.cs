@@ -6,7 +6,7 @@ using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Media;
 
-namespace ModernWpf.Markup
+namespace Glasssix.MicaUI.Markup
 {
     [TypeConverter(typeof(DynamicColorExtensionConverter))]
     public class DynamicColorExtension : DynamicResourceExtension

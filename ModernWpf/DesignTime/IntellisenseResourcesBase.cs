@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Windows;
 
-namespace ModernWpf.DesignTime
+namespace Glasssix.MicaUI.DesignTime
 {
     public abstract class IntellisenseResourcesBase : ResourceDictionary, ISupportInitialize
     {

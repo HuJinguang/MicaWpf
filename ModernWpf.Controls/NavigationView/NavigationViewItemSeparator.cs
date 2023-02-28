@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using static CppWinRTHelpers;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public class NavigationViewItemSeparator : NavigationViewItemBase
     {

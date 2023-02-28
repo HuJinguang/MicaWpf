@@ -13,5 +13,5 @@ using System.Windows.Markup;
 
 [assembly: InternalsVisibleTo("MUXControlsTestApp")]
 
-[assembly: XmlnsDefinition("http://schemas.modernwpf.com/2019", "ModernWpf.Controls")]
-[assembly: XmlnsDefinition("http://schemas.modernwpf.com/2019", "ModernWpf.Controls.Primitives")]
+[assembly: XmlnsDefinition("http://schemas.modernwpf.com/2019", "Glasssix.MicaUI.Controls")]
+[assembly: XmlnsDefinition("http://schemas.modernwpf.com/2019", "Glasssix.MicaUI.Controls.Primitives")]

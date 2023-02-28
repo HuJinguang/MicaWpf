@@ -7,7 +7,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public partial class PipsPager
     {

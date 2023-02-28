@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal static class CollectionHelper
     {

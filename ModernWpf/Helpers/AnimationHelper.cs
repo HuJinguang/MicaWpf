@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Media.Animation;
 using System.Windows.Threading;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     internal static class AnimationHelper
     {

@@ -1,11 +1,11 @@
-﻿using ModernWpf.Media.Animation;
+﻿using Glasssix.MicaUI.Media.Animation;
 using SamplesCommon.SamplePages;
 using System.Windows;
 using System.Windows.Controls;
-using Page = ModernWpf.Controls.Page;
+using Page = Glasssix.MicaUI.Controls.Page;
 using SamplePages = SamplesCommon.SamplePages;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public sealed partial class PageTransitionPage : Page
     {

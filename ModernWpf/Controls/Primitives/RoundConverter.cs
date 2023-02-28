@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     [ValueConversion(typeof(double), typeof(double[]))]
     public class RoundMathConverter : IMultiValueConverter

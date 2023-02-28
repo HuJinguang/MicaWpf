@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public sealed class AutoSuggestBoxQuerySubmittedEventArgs : EventArgs
     {

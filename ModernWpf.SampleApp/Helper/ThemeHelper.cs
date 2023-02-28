@@ -1,4 +1,4 @@
-﻿using ModernWpf.SampleApp.Common;
+﻿using Glasssix.MicaUI.SampleApp.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using Windows.Storage;
 
-namespace ModernWpf.SampleApp.Helper
+namespace Glasssix.MicaUI.SampleApp.Helper
 {
     /// <summary>
     /// Class providing functionality around switching and restoring theme settings

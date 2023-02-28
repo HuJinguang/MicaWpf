@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     public partial class TextBoxPage
     {

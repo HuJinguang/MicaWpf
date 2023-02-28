@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Windows;
 using System.Windows.Threading;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     // Manages virtualization windows (visible/realization). 
     // This class does the equivalent behavior as ViewportManagerWithPlatformFeatures class

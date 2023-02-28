@@ -26,4 +26,4 @@ To enable themed style for a window, set WindowHelper.UseModernWindowStyle to tr
         <!-- Window content here -->
     </Window>
 
-See https://github.com/Kinnara/ModernWpf for more information.
+See https://github.com/Kinnara/Glasssix.MicaUI for more information.

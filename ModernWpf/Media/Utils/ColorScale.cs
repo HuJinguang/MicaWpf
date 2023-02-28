@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Media;
 
-namespace ModernWpf.Media.Utils
+namespace Glasssix.MicaUI.Media.Utils
 {
     internal enum ColorScaleInterpolationMode { RGB, LAB, XYZ };
 

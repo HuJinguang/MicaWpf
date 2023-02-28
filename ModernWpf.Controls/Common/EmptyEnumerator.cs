@@ -9,7 +9,7 @@
 using System;
 using System.Collections;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Returns an Enumerator that enumerates over nothing.

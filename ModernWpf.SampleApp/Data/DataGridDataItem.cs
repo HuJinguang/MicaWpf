@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 
-namespace ModernWpf.SampleApp.Data
+namespace Glasssix.MicaUI.SampleApp.Data
 {
     public class DataGridDataItem : INotifyDataErrorInfo, IComparable
     {

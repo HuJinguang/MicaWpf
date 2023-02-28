@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Windows;
 
-namespace ModernWpf
+namespace Glasssix.MicaUI
 {
     /// <summary>
     /// Enables you to detect whether your app is in design mode in a visual designer.

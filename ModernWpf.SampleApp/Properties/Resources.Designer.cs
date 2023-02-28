@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ModernWpf.SampleApp.Properties {
+namespace Glasssix.MicaUI.SampleApp.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ModernWpf.SampleApp.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ModernWpf.SampleApp.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Glasssix.MicaUI.SampleApp.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -142,7 +142,7 @@ namespace ModernWpf.SampleApp.Properties {
         }
         
         /// <summary>
-        ///   查找类似 ModernWpf.SampleApp.ControlPages. 的本地化字符串。
+        ///   查找类似 Glasssix.MicaUI.SampleApp.ControlPages. 的本地化字符串。
         /// </summary>
         public static string PageStringRoot {
             get {

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="ModernWpf.Controls"/>
+    <InternalsVisibleTo Include="Glasssix.MicaUI.Controls"/>
     <PackageReference Include="Microsoft.Windows.CsWin32" Version="0.2.188-beta" PrivateAssets="all" />
   </ItemGroup>
 
@@ -46,7 +46,7 @@
     <EmbeddedResource Update="Resources\Strings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>
-      <CustomToolNamespace>ModernWpf</CustomToolNamespace>
+      <CustomToolNamespace>Glasssix.MicaUI</CustomToolNamespace>
     </EmbeddedResource>
   </ItemGroup>
 

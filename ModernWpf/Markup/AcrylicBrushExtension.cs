@@ -1,4 +1,4 @@
-﻿using ModernWpf.Media;
+﻿using Glasssix.MicaUI.Media;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -10,7 +10,7 @@ using System.Windows.Data;
 using System.Windows.Markup;
 using System.Windows.Media;
 
-namespace ModernWpf.Markup
+namespace Glasssix.MicaUI.Markup
 {
     public class AcrylicBrushExtension : MarkupExtension
     {

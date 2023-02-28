@@ -1,8 +1,8 @@
-﻿using ModernWpf.SampleApp.DataModel;
+﻿using Glasssix.MicaUI.SampleApp.DataModel;
 using System.Reflection;
 using System;
 
-namespace ModernWpf.SampleApp
+namespace Glasssix.MicaUI.SampleApp
 {
     public partial class App
     {

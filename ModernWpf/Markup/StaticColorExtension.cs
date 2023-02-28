@@ -2,7 +2,7 @@
 using System.Windows.Markup;
 using System.Windows.Media;
 
-namespace ModernWpf.Markup
+namespace Glasssix.MicaUI.Markup
 {
     public class StaticColorExtension : System.Windows.StaticResourceExtension
     {

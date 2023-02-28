@@ -3,7 +3,7 @@
 
 using System.Linq;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     /// <summary>
     /// Value indicating the general character set for a given character.

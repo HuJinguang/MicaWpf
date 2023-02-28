@@ -9,7 +9,7 @@ using System.Windows.Interop;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     [TemplatePart(Name = BackButtonName, Type = typeof(Button))]
     [TemplatePart(Name = MaximizeButtonName, Type = typeof(TitleBarButton))]

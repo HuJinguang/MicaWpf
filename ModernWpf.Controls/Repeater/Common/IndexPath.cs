@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public sealed class IndexPath
     {

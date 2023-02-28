@@ -2,9 +2,9 @@
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
 using System;
-using ModernWpf.Media.Animation;
+using Glasssix.MicaUI.Media.Animation;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public sealed class NavigationViewItemInvokedEventArgs : EventArgs
     {

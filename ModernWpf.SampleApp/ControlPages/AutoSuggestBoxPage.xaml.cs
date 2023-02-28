@@ -1,5 +1,5 @@
-﻿using ModernWpf.Controls;
-using ModernWpf.SampleApp.DataModel;
+﻿using Glasssix.MicaUI.Controls;
+using Glasssix.MicaUI.SampleApp.DataModel;
 using SamplesCommon;
 using System;
 using System.Collections.Generic;
@@ -8,9 +8,9 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
-using Page = ModernWpf.Controls.Page;
+using Page = Glasssix.MicaUI.Controls.Page;
 
-namespace ModernWpf.SampleApp.ControlPages
+namespace Glasssix.MicaUI.SampleApp.ControlPages
 {
     /// <summary>
     /// Interaction logic for AutoSuggestBoxPage.xaml

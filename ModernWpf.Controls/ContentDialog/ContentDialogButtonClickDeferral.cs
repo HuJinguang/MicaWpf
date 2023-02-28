@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public sealed class ContentDialogButtonClickDeferral
     {

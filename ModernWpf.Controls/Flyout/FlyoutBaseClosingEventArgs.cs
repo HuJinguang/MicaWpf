@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     internal sealed class FlyoutBaseClosingEventArgs : EventArgs
     {

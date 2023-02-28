@@ -16,11 +16,11 @@ using System.Windows.Media.Animation;
 using System.Windows.Media;
 using System.Windows.Shapes;
 using System.Windows;
-using ModernWpf.Media.Animation;
+using Glasssix.MicaUI.Media.Animation;
 using static CppWinRTHelpers;
-using static ModernWpf.ResourceAccessor;
+using static Glasssix.MicaUI.ResourceAccessor;
 
-namespace ModernWpf.Controls
+namespace Glasssix.MicaUI.Controls
 {
     public partial class TeachingTip : ContentControl, IControlProtected
     {

@@ -2,7 +2,7 @@
 using System.Windows.Markup;
 using System.Windows.Media.Animation;
 
-namespace ModernWpf.Markup
+namespace Glasssix.MicaUI.Markup
 {
     [MarkupExtensionReturnType(typeof(KeyTime))]
     public class KeyTimeExtension : MarkupExtension

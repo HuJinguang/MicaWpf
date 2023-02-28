@@ -18,7 +18,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernWpf.SampleApp.Controls
+namespace Glasssix.MicaUI.SampleApp.Controls
 {
     /// <summary>
     /// SampleCodePresenter.xaml 的交互逻辑

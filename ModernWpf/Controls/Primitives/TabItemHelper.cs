@@ -7,7 +7,7 @@ using System.Windows.Interop;
 using System.Windows.Markup;
 using System.Windows.Media;
 
-namespace ModernWpf.Controls.Primitives
+namespace Glasssix.MicaUI.Controls.Primitives
 {
     /// <summary>
     /// TabViewItem Properties
