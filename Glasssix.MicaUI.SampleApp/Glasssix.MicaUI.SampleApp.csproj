@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFrameworks>net4.6.2</TargetFrameworks>
+    <TargetFrameworks>net48;netcoreapp3.1</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>Assets\AppIcon.ico</ApplicationIcon>
   </PropertyGroup>
@@ -43,8 +43,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModernWpf.Controls\Glasssix.MicaUI.Controls.csproj" />
-    <ProjectReference Include="..\ModernWpf\Glasssix.MicaUI.csproj" />
+    <ProjectReference Include="..\Glasssix.MicaUI.Controls\Glasssix.MicaUI.Controls.csproj" />
+    <ProjectReference Include="..\Glasssix.MicaUI\Glasssix.MicaUI.csproj" />
     <ProjectReference Include="..\samples\SamplesCommon\SamplesCommon.csproj" />
   </ItemGroup>
 
