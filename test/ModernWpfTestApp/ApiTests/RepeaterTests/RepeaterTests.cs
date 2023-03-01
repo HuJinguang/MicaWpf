@@ -222,7 +222,7 @@ namespace ModernWpf.Tests.MUXControls.ApiTests.RepeaterTests
                   @"<controls:ItemsRepeaterScrollHost Width='400' Height='600'
                      xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
                      xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
-                     xmlns:controls='http://schemas.modernwpf.com/2019'>
+                     xmlns:controls='http://glasssix.com/winfx/xaml/toolkit/micaui'>
                     <controls:ItemsRepeaterScrollHost.Resources>
                         <DataTemplate x:Key='ItemTemplate' >
                             <TextBlock Text='{Binding}' Height='50'/>
@@ -368,7 +368,7 @@ namespace ModernWpf.Tests.MUXControls.ApiTests.RepeaterTests
                     @"<controls:ItemsRepeaterScrollHost Width='400' Height='600'
                         xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
                         xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
-                        xmlns:controls='http://schemas.modernwpf.com/2019'>
+                        xmlns:controls='http://glasssix.com/winfx/xaml/toolkit/micaui'>
                     <controls:ItemsRepeaterScrollHost.Resources>
                         <DataTemplate x:Key='ItemTemplate' >
                             <TextBlock Text='{Binding}' />
@@ -455,7 +455,7 @@ namespace ModernWpf.Tests.MUXControls.ApiTests.RepeaterTests
                   @"<controls:ItemsRepeaterScrollHost Width='400' Height='600'
                      xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
                      xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
-                     xmlns:controls='http://schemas.modernwpf.com/2019'>
+                     xmlns:controls='http://glasssix.com/winfx/xaml/toolkit/micaui'>
                     <ScrollViewer Width='400' Height='400' x:Name='scrollviewer'>
                         <controls:ItemsRepeater x:Name='repeater'>
                             <DataTemplate>
@@ -515,7 +515,7 @@ namespace ModernWpf.Tests.MUXControls.ApiTests.RepeaterTests
                   @" <controls:ItemsRepeaterScrollHost Width='400' Height='200'
                         xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
                         xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
-                        xmlns:controls='http://schemas.modernwpf.com/2019'>
+                        xmlns:controls='http://glasssix.com/winfx/xaml/toolkit/micaui'>
                         <controls:ItemsRepeaterScrollHost.Resources>
                             <DataTemplate x:Key='ItemTemplate' >
                                 <TextBlock Text='{Binding}' Height='100' Width='100'/>
@@ -580,7 +580,7 @@ namespace ModernWpf.Tests.MUXControls.ApiTests.RepeaterTests
                      xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
                      xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
                      xmlns:local='clr-namespace:MUXControlsTestApp.Samples;assembly=MUXControlsTestApp'
-                     xmlns:controls='http://schemas.modernwpf.com/2019'>
+                     xmlns:controls='http://glasssix.com/winfx/xaml/toolkit/micaui'>
                         <ScrollViewer>
                             <controls:ItemsRepeater x:Name='repeater'>
                                 <controls:ItemsRepeater.ItemsSource>

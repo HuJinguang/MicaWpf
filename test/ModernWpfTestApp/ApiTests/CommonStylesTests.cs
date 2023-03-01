@@ -70,7 +70,7 @@ namespace ModernWpf.Tests.MUXControls.ApiTests
                 var root = (StackPanel)XamlReader.Parse(
                     @"<StackPanel xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' 
                              xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
-                             xmlns:primitives='http://schemas.modernwpf.com/2019'> 
+                             xmlns:primitives='http://glasssix.com/winfx/xaml/toolkit/micaui'> 
                             <StackPanel.Resources>
                                 <primitives:CornerRadiusFilterConverter x:Key='TopCornerRadiusFilterConverter' Filter='Top' Scale='2'/>
                                 <primitives:CornerRadiusFilterConverter x:Key='RightCornerRadiusFilterConverter' Filter='Right'/>

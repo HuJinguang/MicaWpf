@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:samplepages="clr-namespace:SamplesCommon.SamplePages;assembly=SamplesCommon"
-    xmlns:ui="http://schemas.modernwpf.com/2019"
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui"
     x:Name="Window"
     Title="MahApps.Metro Integration"
     Width="1366"

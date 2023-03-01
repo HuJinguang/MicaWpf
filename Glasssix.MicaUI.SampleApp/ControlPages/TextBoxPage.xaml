@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:Glasssix.MicaUI.SampleApp"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
-    xmlns:ui="http://schemas.modernwpf.com/2019"
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui"
     mc:Ignorable="d">
     <ui:SimpleStackPanel>
         <local:ControlExample x:Name="Example1" HeaderText="A simple TextBox.">

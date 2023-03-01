@@ -3,7 +3,7 @@
     x:Class="MUXControlsTestApp.Samples.CircleLayoutSamplePage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:ui="http://schemas.modernwpf.com/2019"
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui"
     xmlns:local="clr-namespace:MUXControlsTestApp.Samples"
     xmlns:controls="clr-namespace:ModernWpf.Controls;assembly=ModernWpf.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"

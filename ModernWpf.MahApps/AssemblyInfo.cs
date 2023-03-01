@@ -10,5 +10,5 @@ using System.Windows.Markup;
                                               // app, or any theme specific resource dictionaries)
 )]
 
-[assembly: XmlnsDefinition("http://schemas.modernwpf.com/2019", "ModernWpf.MahApps")]
-[assembly: XmlnsDefinition("http://schemas.modernwpf.com/2019", "ModernWpf.MahApps.Controls")]
+[assembly: XmlnsDefinition("http://glasssix.com/winfx/xaml/toolkit/micaui", "ModernWpf.MahApps")]
+[assembly: XmlnsDefinition("http://glasssix.com/winfx/xaml/toolkit/micaui", "ModernWpf.MahApps.Controls")]

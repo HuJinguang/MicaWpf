@@ -4,7 +4,7 @@ Don't forget to add the theme resources to your Application resources in App.xam
 
     <Application
         ...
-        xmlns:ui="http://schemas.modernwpf.com/2019">
+        xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui">
         <Application.Resources>
             <ResourceDictionary>
                 <ResourceDictionary.MergedDictionaries>
@@ -21,7 +21,7 @@ To enable themed style for a window, set WindowHelper.UseModernWindowStyle to tr
 
     <Window
         ...
-        xmlns:ui="http://schemas.modernwpf.com/2019"
+        xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui"
         ui:WindowHelper.UseModernWindowStyle="True">
         <!-- Window content here -->
     </Window>

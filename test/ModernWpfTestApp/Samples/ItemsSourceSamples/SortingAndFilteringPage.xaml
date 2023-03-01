@@ -2,7 +2,7 @@
 <mux:Page
     x:Class="MUXControlsTestApp.Samples.SortingAndFilteringPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:mux="http://schemas.modernwpf.com/2019"
+    xmlns:mux="http://glasssix.com/winfx/xaml/toolkit/micaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:utils="clr-namespace:MUXControlsTestApp.Utils"
     Background="{DynamicResource ApplicationPageBackgroundThemeBrush}">

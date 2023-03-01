@@ -5,7 +5,7 @@
     xmlns:local="clr-namespace:SamplesCommon.SamplePages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:ui="http://schemas.modernwpf.com/2019"
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
     mc:Ignorable="d">
 

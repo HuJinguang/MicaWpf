@@ -6,7 +6,7 @@
     xmlns:dragablz="http://dragablz.net/winfx/xaml/dragablz"
     xmlns:local="clr-namespace:DragablzSample"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:ui="http://schemas.modernwpf.com/2019"
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui"
     Title="Dragablz Sample"
     Width="800"
     Height="450"

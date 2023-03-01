@@ -7,7 +7,7 @@
     xmlns:local="clr-namespace:Glasssix.MicaUI.SampleApp.ControlPages"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sc="clr-namespace:System.ComponentModel;assembly=WindowsBase"
-    xmlns:ui="http://schemas.modernwpf.com/2019"
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui"
     SnapsToDevicePixels="True"
     mc:Ignorable="d">
 

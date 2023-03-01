@@ -5,7 +5,7 @@
     xmlns:controls="clr-namespace:Glasssix.MicaUI.SampleApp.Controls"
     xmlns:local="clr-namespace:Glasssix.MicaUI.SampleApp"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
-    xmlns:ui="http://schemas.modernwpf.com/2019">
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui">
 
     <common:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
 

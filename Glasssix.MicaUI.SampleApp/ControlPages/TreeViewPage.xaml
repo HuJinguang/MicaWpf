@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:Glasssix.MicaUI.SampleApp.ControlPages"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sc="clr-namespace:SamplesCommon;assembly=SamplesCommon"
-    xmlns:ui="http://schemas.modernwpf.com/2019"
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui"
     mc:Ignorable="d">
 
     <Page.Resources>

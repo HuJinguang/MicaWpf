@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:Glasssix.MicaUI.Controls"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
-    xmlns:ui="http://schemas.modernwpf.com/2019">
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui">
 
     <Thickness x:Key="ToggleSwitchTopHeaderMargin">0,0,0,4</Thickness>
     <sys:Double x:Key="ToggleSwitchPreContentMargin">10</sys:Double>

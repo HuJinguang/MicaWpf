@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:MahAppsSample.ControlPages"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sc="clr-namespace:SamplesCommon;assembly=SamplesCommon"
-    xmlns:ui="http://schemas.modernwpf.com/2019"
+    xmlns:ui="http://glasssix.com/winfx/xaml/toolkit/micaui"
     Background="Transparent"
     mc:Ignorable="d">
 

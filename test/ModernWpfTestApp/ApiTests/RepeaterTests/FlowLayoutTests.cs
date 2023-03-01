@@ -1368,7 +1368,7 @@ namespace ModernWpf.Tests.MUXControls.ApiTests.RepeaterTests
                 var layoutPanel = (LayoutPanel)XamlReader.Parse(
                     @"<controls:LayoutPanel Width='800'  
                         xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
-                        xmlns:controls='http://schemas.modernwpf.com/2019'>
+                        xmlns:controls='http://glasssix.com/winfx/xaml/toolkit/micaui'>
                         <controls:LayoutPanel.Layout>
                             <controls:FlowLayout  />
                         </controls:LayoutPanel.Layout>
