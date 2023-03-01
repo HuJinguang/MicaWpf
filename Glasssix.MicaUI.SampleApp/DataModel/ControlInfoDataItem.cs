@@ -3,19 +3,81 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
-using System.Text;
+using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 using System.Windows;
-using Windows.Data.Json;
-using Windows.Storage;
 
 namespace Glasssix.MicaUI.SampleApp.DataModel
 {
+    /// <summary>
+    /// Generic group data model.
+    /// </summary>
+    public class ControlInfoDataGroup
+    {
+        public string Description { get; private set; }
+
+        public string ImageIconPath { get; private set; }
+
+        public string ImagePath { get; private set; }
+
+        public ObservableCollection<ControlInfoDataItem> Items { get; private set; }
+
+        public string Subtitle { get; private set; }
+
+        public string Title { get; private set; }
+
+        public string UniqueId { get; private set; }
+
+        public ControlInfoDataGroup(string uniqueId, string title, string subtitle, string imagePath, string imageIconPath, string description)
+        {
+            this.UniqueId = uniqueId;
+            this.Title = title;
+            this.Subtitle = subtitle;
+            this.Description = description;
+            this.ImagePath = imagePath.Replace("ms-appx://", string.Empty);
+            this.ImageIconPath = imageIconPath.Replace("ms-appx://", string.Empty);
+            this.Items = new ObservableCollection<ControlInfoDataItem>();
+        }
+
+        public override string ToString()
+        {
+            return this.Title;
+        }
+    }
+
     /// <summary>
     /// Generic item data model.
     /// </summary>
     public class ControlInfoDataItem
     {
+        public string BadgeString { get; private set; }
+
+        public string Content { get; private set; }
+
+        public string Description { get; private set; }
+
+        public ObservableCollection<ControlInfoDocLink> Docs { get; private set; }
+
+        public string ImageIconPath { get; private set; }
+
+        public string ImagePath { get; private set; }
+
+        public bool IncludedInBuild { get; set; }
+
+        public bool IsNew { get; private set; }
+
+        public bool IsPreview { get; private set; }
+
+        public bool IsUpdated { get; private set; }
+
+        public ObservableCollection<string> RelatedControls { get; private set; }
+
+        public string Subtitle { get; private set; }
+
+        public string Title { get; private set; }
+
+        public string UniqueId { get; private set; }
+
         public ControlInfoDataItem(string uniqueId, string title, string subtitle, string imagePath, string imageIconPath, string badgeString, string description, string content, bool isNew, bool isUpdated, bool isPreview)
         {
             this.UniqueId = uniqueId;
@@ -32,64 +94,6 @@ namespace Glasssix.MicaUI.SampleApp.DataModel
             this.Docs = new ObservableCollection<ControlInfoDocLink>();
             this.RelatedControls = new ObservableCollection<string>();
         }
-
-        public string UniqueId { get; private set; }
-        public string Title { get; private set; }
-        public string Subtitle { get; private set; }
-        public string Description { get; private set; }
-        public string ImagePath { get; private set; }
-        public string ImageIconPath { get; private set; }
-        public string BadgeString { get; private set; }
-        public string Content { get; private set; }
-        public bool IsNew { get; private set; }
-        public bool IsUpdated { get; private set; }
-        public bool IsPreview { get; private set; }
-        public ObservableCollection<ControlInfoDocLink> Docs { get; private set; }
-        public ObservableCollection<string> RelatedControls { get; private set; }
-
-        public bool IncludedInBuild { get; set; }
-
-        public override string ToString()
-        {
-            return this.Title;
-        }
-    }
-
-    public class ControlInfoDocLink
-    {
-        public ControlInfoDocLink(string title, string uri)
-        {
-            this.Title = title;
-            this.Uri = uri;
-        }
-        public string Title { get; private set; }
-        public string Uri { get; private set; }
-    }
-
-
-    /// <summary>
-    /// Generic group data model.
-    /// </summary>
-    public class ControlInfoDataGroup
-    {
-        public ControlInfoDataGroup(string uniqueId, string title, string subtitle, string imagePath, string imageIconPath, string description)
-        {
-            this.UniqueId = uniqueId;
-            this.Title = title;
-            this.Subtitle = subtitle;
-            this.Description = description;
-            this.ImagePath = imagePath.Replace("ms-appx://", string.Empty);
-            this.ImageIconPath = imageIconPath.Replace("ms-appx://", string.Empty);
-            this.Items = new ObservableCollection<ControlInfoDataItem>();
-        }
-
-        public string UniqueId { get; private set; }
-        public string Title { get; private set; }
-        public string Subtitle { get; private set; }
-        public string Description { get; private set; }
-        public string ImagePath { get; private set; }
-        public string ImageIconPath { get; private set; }
-        public ObservableCollection<ControlInfoDataItem> Items { get; private set; }
 
         public override string ToString()
         {
@@ -119,52 +123,22 @@ namespace Glasssix.MicaUI.SampleApp.DataModel
             }
         }
 
+        private ControlInfoDataSource()
+        {
+        }
+
         static ControlInfoDataSource()
         {
             _instance = new ControlInfoDataSource();
         }
 
-        private ControlInfoDataSource() { }
-
-        #endregion
+        #endregion Singleton
 
         private IList<ControlInfoDataGroup> _groups = new List<ControlInfoDataGroup>();
+
         public IList<ControlInfoDataGroup> Groups
         {
             get { return this._groups; }
-        }
-
-        public async Task<IEnumerable<ControlInfoDataGroup>> GetGroupsAsync()
-        {
-            await _instance.GetControlInfoDataAsync();
-
-            return _instance.Groups;
-        }
-
-        public async Task<ControlInfoDataGroup> GetGroupAsync(string uniqueId)
-        {
-            await _instance.GetControlInfoDataAsync();
-            // Simple linear search is acceptable for small data sets
-            var matches = _instance.Groups.Where((group) => group.UniqueId.Equals(uniqueId));
-            if (matches.Count() == 1) return matches.First();
-            return null;
-        }
-
-        public async Task<ControlInfoDataItem> GetItemAsync(string uniqueId)
-        {
-            await _instance.GetControlInfoDataAsync();
-            // Simple linear search is acceptable for small data sets
-            var matches = _instance.Groups.SelectMany(group => group.Items).Where((item) => item.UniqueId.Equals(uniqueId));
-            if (matches.Count() > 0) return matches.First();
-            return null;
-        }
-
-        public async Task<ControlInfoDataGroup> GetGroupFromItemAsync(string uniqueId)
-        {
-            await _instance.GetControlInfoDataAsync();
-            var matches = _instance.Groups.Where((group) => group.Items.FirstOrDefault(item => item.UniqueId.Equals(uniqueId)) != null);
-            if (matches.Count() == 1) return matches.First();
-            return null;
         }
 
         private async Task GetControlInfoDataAsync()
@@ -187,33 +161,32 @@ namespace Glasssix.MicaUI.SampleApp.DataModel
                 await Task.Run(() => jsonText = reader.ReadToEnd());
             }
 
-            JsonObject jsonObject = JsonObject.Parse(jsonText);
-            JsonArray jsonArray = jsonObject["Groups"].GetArray();
+            var jsonObject = JsonObject.Parse(jsonText);
+            JsonArray jsonArray = jsonObject["Groups"].AsArray();
 
             lock (_lock)
             {
                 string pageRoot = "Glasssix.MicaUI.SampleApp.ControlPages.";
-                foreach (JsonValue groupValue in jsonArray)
+                foreach (var groupValue in jsonArray)
                 {
+                    JsonObject groupObject = groupValue.AsObject();
 
-                    JsonObject groupObject = groupValue.GetObject();
+                    ControlInfoDataGroup group = new ControlInfoDataGroup(groupObject["UniqueId"].GetValue<string>(),
+                                                                          groupObject["Title"].GetValue<string>(),
+                                                                          groupObject["Subtitle"].GetValue<string>(),
+                                                                          groupObject["ImagePath"].GetValue<string>(),
+                                                                          groupObject["ImageIconPath"].GetValue<string>(),
+                                                                          groupObject["Description"].GetValue<string>());
 
-                    ControlInfoDataGroup group = new ControlInfoDataGroup(groupObject["UniqueId"].GetString(),
-                                                                          groupObject["Title"].GetString(),
-                                                                          groupObject["Subtitle"].GetString(),
-                                                                          groupObject["ImagePath"].GetString(),
-                                                                          groupObject["ImageIconPath"].GetString(),
-                                                                          groupObject["Description"].GetString());
-
-                    foreach (JsonValue itemValue in groupObject["Items"].GetArray())
+                    foreach (var itemValue in groupObject["Items"].AsArray())
                     {
-                        JsonObject itemObject = itemValue.GetObject();
+                        JsonObject itemObject = itemValue.AsObject();
 
                         string badgeString = null;
 
-                        bool isNew = itemObject.ContainsKey("IsNew") ? itemObject["IsNew"].GetBoolean() : false;
-                        bool isUpdated = itemObject.ContainsKey("IsUpdated") ? itemObject["IsUpdated"].GetBoolean() : false;
-                        bool isPreview = itemObject.ContainsKey("IsPreview") ? itemObject["IsPreview"].GetBoolean() : false;
+                        bool isNew = itemObject.ContainsKey("IsNew") ? itemObject["IsNew"].GetValue<bool>() : false;
+                        bool isUpdated = itemObject.ContainsKey("IsUpdated") ? itemObject["IsUpdated"].GetValue<bool>() : false;
+                        bool isPreview = itemObject.ContainsKey("IsPreview") ? itemObject["IsPreview"].GetValue<bool>() : false;
 
                         if (isNew)
                         {
@@ -228,14 +201,14 @@ namespace Glasssix.MicaUI.SampleApp.DataModel
                             badgeString = "Preview";
                         }
 
-                        var item = new ControlInfoDataItem(itemObject["UniqueId"].GetString(),
-                                                                itemObject["Title"].GetString(),
-                                                                itemObject["Subtitle"].GetString(),
-                                                                itemObject["ImagePath"].GetString(),
-                                                                itemObject["ImageIconPath"].GetString(),
+                        var item = new ControlInfoDataItem(itemObject["UniqueId"].GetValue<string>(),
+                                                                itemObject["Title"].GetValue<string>(),
+                                                                itemObject["Subtitle"].GetValue<string>(),
+                                                                itemObject["ImagePath"].GetValue<string>(),
+                                                                itemObject["ImageIconPath"].GetValue<string>(),
                                                                 badgeString,
-                                                                itemObject["Description"].GetString(),
-                                                                itemObject["Content"].GetString(),
+                                                                itemObject["Description"].GetValue<string>(),
+                                                                itemObject["Content"].GetValue<string>(),
                                                                 isNew,
                                                                 isUpdated,
                                                                 isPreview);
@@ -248,18 +221,18 @@ namespace Glasssix.MicaUI.SampleApp.DataModel
 
                         if (itemObject.ContainsKey("Docs"))
                         {
-                            foreach (JsonValue docValue in itemObject["Docs"].GetArray())
+                            foreach (var docValue in itemObject["Docs"].AsArray())
                             {
-                                JsonObject docObject = docValue.GetObject();
-                                item.Docs.Add(new ControlInfoDocLink(docObject["Title"].GetString(), docObject["Uri"].GetString()));
+                                JsonObject docObject = docValue.AsObject();
+                                item.Docs.Add(new ControlInfoDocLink(docObject["Title"].GetValue<string>(), docObject["Uri"].GetValue<string>()));
                             }
                         }
 
                         if (itemObject.ContainsKey("RelatedControls"))
                         {
-                            foreach (JsonValue relatedControlValue in itemObject["RelatedControls"].GetArray())
+                            foreach (var relatedControlValue in itemObject["RelatedControls"].AsArray())
                             {
-                                item.RelatedControls.Add(relatedControlValue.GetString());
+                                item.RelatedControls.Add(relatedControlValue.GetValue<string>());
                             }
                         }
 
@@ -271,6 +244,52 @@ namespace Glasssix.MicaUI.SampleApp.DataModel
                     }
                 }
             }
+        }
+
+        public async Task<ControlInfoDataGroup> GetGroupAsync(string uniqueId)
+        {
+            await _instance.GetControlInfoDataAsync();
+            // Simple linear search is acceptable for small data sets
+            var matches = _instance.Groups.Where((group) => group.UniqueId.Equals(uniqueId));
+            if (matches.Count() == 1) return matches.First();
+            return null;
+        }
+
+        public async Task<ControlInfoDataGroup> GetGroupFromItemAsync(string uniqueId)
+        {
+            await _instance.GetControlInfoDataAsync();
+            var matches = _instance.Groups.Where((group) => group.Items.FirstOrDefault(item => item.UniqueId.Equals(uniqueId)) != null);
+            if (matches.Count() == 1) return matches.First();
+            return null;
+        }
+
+        public async Task<IEnumerable<ControlInfoDataGroup>> GetGroupsAsync()
+        {
+            await _instance.GetControlInfoDataAsync();
+
+            return _instance.Groups;
+        }
+
+        public async Task<ControlInfoDataItem> GetItemAsync(string uniqueId)
+        {
+            await _instance.GetControlInfoDataAsync();
+            // Simple linear search is acceptable for small data sets
+            var matches = _instance.Groups.SelectMany(group => group.Items).Where((item) => item.UniqueId.Equals(uniqueId));
+            if (matches.Count() > 0) return matches.First();
+            return null;
+        }
+    }
+
+    public class ControlInfoDocLink
+    {
+        public string Title { get; private set; }
+
+        public string Uri { get; private set; }
+
+        public ControlInfoDocLink(string title, string uri)
+        {
+            this.Title = title;
+            this.Uri = uri;
         }
     }
 }

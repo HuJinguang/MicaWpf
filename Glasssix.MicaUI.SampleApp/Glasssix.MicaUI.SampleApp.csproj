@@ -263,7 +263,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ColorCodeStandard" Version="1.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="System.Text.Json" Version="7.0.2" />
   </ItemGroup>
 
   <ItemGroup>

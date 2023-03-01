@@ -306,10 +306,10 @@ namespace Glasssix.MicaUI.SampleApp
 
         private void RootGrid_Loaded(object sender, RoutedEventArgs e)
         {
-            if (MinimumUniversalAPIContract != 0 && !(ApiInformation.IsApiContractPresent("Windows.Foundation.UniversalApiContract", (ushort)MinimumUniversalAPIContract)))
-            {
-                ErrorTextBlock.Visibility = Visibility.Visible;
-            }
+            //if (MinimumUniversalAPIContract != 0 && !(ApiInformation.IsApiContractPresent("Windows.Foundation.UniversalApiContract", (ushort)MinimumUniversalAPIContract)))
+            //{
+            //    ErrorTextBlock.Visibility = Visibility.Visible;
+            //}
         }
 
         private enum SyntaxHighlightLanguage { Xml, CSharp };

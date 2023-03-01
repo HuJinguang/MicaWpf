@@ -1,20 +1,14 @@
-﻿using Glasssix.MicaUI.Controls;
-using Glasssix.MicaUI.SampleApp.Common;
+﻿using Glasssix.MicaUI.SampleApp.Common;
 using Glasssix.MicaUI.SampleApp.DataModel;
-using Glasssix.MicaUI.SampleApp.Helper;
 using Glasssix.MicaUI.SampleApp.Helpers;
 using Glasssix.MicaUI.SampleApp.Properties;
-using SamplesCommon;
+
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Reflection;
-using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Interop;
 
 namespace Glasssix.MicaUI.SampleApp
 {
@@ -31,26 +25,30 @@ namespace Glasssix.MicaUI.SampleApp
 
         private async void InitialzeApp()
         {
-            await Task.Delay(1);
             WindowHelper.TrackWindow(this);
-            ThemeHelper.Initialize();
-            await ControlInfoDataSource.Instance.GetGroupsAsync();
             SubscribeToResourcesChanged();
-            NavigationRootPage NavigationRootPage = new NavigationRootPage();
-            Content = NavigationRootPage;
+            // ThemeHelper.Initialize();
+            await ControlInfoDataSource.Instance.GetGroupsAsync();
+            await Task.Delay(100);
+            NavigationRootPage navigationRootPage = new NavigationRootPage();
+            Content = navigationRootPage;
         }
 
-        protected override void OnSourceInitialized(EventArgs e)
+        private void OnResourcesChanged(object sender, EventArgs e)
         {
-            base.OnSourceInitialized(e);
+        }
 
-            DispatcherHelper.RunOnMainThread(() =>
-            {
-                if (this == Application.Current.MainWindow)
-                {
-                    this.SetPlacement(Settings.Default.MainWindowPlacement);
-                }
-            });
+        [Conditional("DEBUG")]
+        private void SubscribeToResourcesChanged()
+        {
+            Type t = typeof(FrameworkElement);
+            EventInfo ei = t.GetEvent("ResourcesChanged", BindingFlags.NonPublic | BindingFlags.Instance);
+            Type tDelegate = ei.EventHandlerType;
+            MethodInfo h = GetType().GetMethod(nameof(OnResourcesChanged), BindingFlags.NonPublic | BindingFlags.Instance);
+            Delegate d = Delegate.CreateDelegate(tDelegate, this, h);
+            MethodInfo addHandler = ei.GetAddMethod(true);
+            object[] addHandlerArgs = { d };
+            addHandler.Invoke(this, addHandlerArgs);
         }
 
         protected override void OnClosing(CancelEventArgs e)
@@ -70,6 +68,19 @@ namespace Glasssix.MicaUI.SampleApp
             }
         }
 
+        protected override void OnSourceInitialized(EventArgs e)
+        {
+            base.OnSourceInitialized(e);
+
+            DispatcherHelper.RunOnMainThread(() =>
+            {
+                if (this == Application.Current.MainWindow)
+                {
+                    this.SetPlacement(Settings.Default.MainWindowPlacement);
+                }
+            });
+        }
+
         /*protected override void OnPropertyChanged(DependencyPropertyChangedEventArgs e)
         {
             base.OnPropertyChanged(e);
@@ -79,22 +90,5 @@ namespace Glasssix.MicaUI.SampleApp
                 Debug.WriteLine("FocusedElement: " + e.NewValue);
             }
         }*/
-
-        [Conditional("DEBUG")]
-        private void SubscribeToResourcesChanged()
-        {
-            Type t = typeof(FrameworkElement);
-            EventInfo ei = t.GetEvent("ResourcesChanged", BindingFlags.NonPublic | BindingFlags.Instance);
-            Type tDelegate = ei.EventHandlerType;
-            MethodInfo h = GetType().GetMethod(nameof(OnResourcesChanged), BindingFlags.NonPublic | BindingFlags.Instance);
-            Delegate d = Delegate.CreateDelegate(tDelegate, this, h);
-            MethodInfo addHandler = ei.GetAddMethod(true);
-            object[] addHandlerArgs = { d };
-            addHandler.Invoke(this, addHandlerArgs);
-        }
-
-        private void OnResourcesChanged(object sender, EventArgs e)
-        {
-        }
     }
 }

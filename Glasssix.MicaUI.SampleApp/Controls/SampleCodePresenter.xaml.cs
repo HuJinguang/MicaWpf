@@ -1,4 +1,4 @@
-﻿using ColorCodeStandard;
+﻿// using ColorCodeStandard;
 using SamplesCommon;
 using System;
 using System.Collections.Generic;
@@ -154,79 +154,79 @@ namespace Glasssix.MicaUI.SampleApp.Controls
 
         private void GenerateSyntaxHighlightedContent()
         {
-            if (!string.IsNullOrEmpty(Code))
-            {
-                FormatAndRenderSampleFromString(Code, CodePresenter, IsCSharpSample ? Languages.CSharp : Languages.Xml);
-            }
-            else
-            {
-                FormatAndRenderSampleFromFile(CodeSourceFile, CodePresenter, IsCSharpSample ? Languages.CSharp : Languages.Xml);
-            }
+            //if (!string.IsNullOrEmpty(Code))
+            //{
+            //    FormatAndRenderSampleFromString(Code, CodePresenter, IsCSharpSample ? Languages.CSharp : Languages.Xml);
+            //}
+            //else
+            //{
+            //    FormatAndRenderSampleFromFile(CodeSourceFile, CodePresenter, IsCSharpSample ? Languages.CSharp : Languages.Xml);
+            //}
         }
 
-        private async void FormatAndRenderSampleFromFile(Uri source, ContentPresenter presenter, ILanguage highlightLanguage)
-        {
-            if (source != null && source.OriginalString.EndsWith("txt"))
-            {
-                Uri derivedSource = GetDerivedSource(source);
-                var file = Application.GetResourceStream(derivedSource);
-                string sampleString = string.Empty;
+        //private async void FormatAndRenderSampleFromFile(Uri source, ContentPresenter presenter, ILanguage highlightLanguage)
+        //{
+        //    if (source != null && source.OriginalString.EndsWith("txt"))
+        //    {
+        //        Uri derivedSource = GetDerivedSource(source);
+        //        var file = Application.GetResourceStream(derivedSource);
+        //        string sampleString = string.Empty;
 
-                using (var reader = new StreamReader(file.Stream))
-                {
-                    await Task.Run(() => sampleString = reader.ReadToEnd());
-                }
+        //        using (var reader = new StreamReader(file.Stream))
+        //        {
+        //            await Task.Run(() => sampleString = reader.ReadToEnd());
+        //        }
 
-                FormatAndRenderSampleFromString(sampleString, presenter, highlightLanguage);
-            }
-            else
-            {
-                presenter.Visibility = Visibility.Collapsed;
-            }
-        }
+        //        // FormatAndRenderSampleFromString(sampleString, presenter, highlightLanguage);
+        //    }
+        //    else
+        //    {
+        //        presenter.Visibility = Visibility.Collapsed;
+        //    }
+        //}
 
-        private void FormatAndRenderSampleFromString(string sampleString, ContentPresenter presenter, ILanguage highlightLanguage)
-        {
-            // Trim out stray blank lines at start and end.
-            sampleString = sampleString.TrimStart('\n').TrimEnd();
+        //private void FormatAndRenderSampleFromString(string sampleString, ContentPresenter presenter, ILanguage highlightLanguage)
+        //{
+        //    // Trim out stray blank lines at start and end.
+        //    sampleString = sampleString.TrimStart('\n').TrimEnd();
 
-            // Also trim out spaces at the end of each line
-            sampleString = string.Join("\n", sampleString.Split('\n').Select(s => s.TrimEnd()).ToArray());
+        //    // Also trim out spaces at the end of each line
+        //    sampleString = string.Join("\n", sampleString.Split('\n').Select(s => s.TrimEnd()).ToArray());
 
-            // Perform any applicable substitutions.
-            sampleString = SubstitutionPattern.Replace(sampleString, match =>
-            {
-                if (Substitutions != null)
-                {
-                    foreach (var substitution in Substitutions)
-                    {
-                        if (substitution.Key == match.Groups[1].Value)
-                        {
-                            return substitution.ValueAsString();
-                        }
-                    }
-                }
-                return string.Empty;
-            });
+        //    // Perform any applicable substitutions.
+        //    sampleString = SubstitutionPattern.Replace(sampleString, match =>
+        //    {
+        //        if (Substitutions != null)
+        //        {
+        //            foreach (var substitution in Substitutions)
+        //            {
+        //                if (substitution.Key == match.Groups[1].Value)
+        //                {
+        //                    return substitution.ValueAsString();
+        //                }
+        //            }
+        //        }
+        //        return string.Empty;
+        //    });
 
-            actualCode = sampleString;
+        //    actualCode = sampleString;
 
-            var sampleCodeRTB = new TextBlock { FontFamily = new FontFamily("Consolas") };
+        //    var sampleCodeRTB = new TextBlock { FontFamily = new FontFamily("Consolas") };
 
-            var formatter = GenerateRichTextFormatter();
-            formatter.Colorize(sampleString, highlightLanguage);
+        //    //var formatter = GenerateRichTextFormatter();
+        //    //formatter.Colorize(sampleString, highlightLanguage);
 
-            sampleCodeRTB.Text = sampleString;
-            presenter.Content = sampleCodeRTB;
+        //    sampleCodeRTB.Text = sampleString;
+        //    presenter.Content = sampleCodeRTB;
 
-            presenter.Visibility = Visibility.Visible;
-        }
+        //    presenter.Visibility = Visibility.Visible;
+        //}
 
-        private CodeColorizer GenerateRichTextFormatter()
-        {
-            var formatter = new CodeColorizer();
-            return formatter;
-        }
+        //private CodeColorizer GenerateRichTextFormatter()
+        //{
+        //    var formatter = new CodeColorizer();
+        //    return formatter;
+        //}
 
         private void CopyCodeButton_Click(object sender, RoutedEventArgs e)
         {

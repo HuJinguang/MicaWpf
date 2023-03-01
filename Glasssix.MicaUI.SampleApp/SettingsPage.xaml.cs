@@ -72,21 +72,21 @@ namespace Glasssix.MicaUI.SampleApp
 
         private void OnSettingsPageLoaded(object sender, RoutedEventArgs e)
         {
-            var currentTheme = ThemeHelper.RootTheme.ToString();
-            (ThemePanel.Children.Cast<RadioButton>().FirstOrDefault(c => c?.Tag?.ToString() == currentTheme)).IsChecked = true;
+            //var currentTheme = ThemeHelper.RootTheme.ToString();
+            //(ThemePanel.Children.Cast<RadioButton>().FirstOrDefault(c => c?.Tag?.ToString() == currentTheme)).IsChecked = true;
 
-            NavigationRootPage navigationRootPage = NavigationRootPage.GetForElement(this);
-            if (navigationRootPage != null)
-            {
-                if (navigationRootPage.NavigationView.PaneDisplayMode == NavigationViewPaneDisplayMode.Auto)
-                {
-                    navigationLocation.SelectedIndex = 0;
-                }
-                else
-                {
-                    navigationLocation.SelectedIndex = 1;
-                }
-            }
+            //NavigationRootPage navigationRootPage = NavigationRootPage.GetForElement(this);
+            //if (navigationRootPage != null)
+            //{
+            //    if (navigationRootPage.NavigationView.PaneDisplayMode == NavigationViewPaneDisplayMode.Auto)
+            //    {
+            //        navigationLocation.SelectedIndex = 0;
+            //    }
+            //    else
+            //    {
+            //        navigationLocation.SelectedIndex = 1;
+            //    }
+            //}
         }
 
         private void OnThemeRadioButtonChecked(object sender, RoutedEventArgs e)
@@ -95,7 +95,7 @@ namespace Glasssix.MicaUI.SampleApp
 
             if(selectTheme != null)
             {
-                ThemeHelper.RootTheme = App.GetEnum<ElementTheme>(selectTheme);
+                //ThemeHelper.RootTheme = App.GetEnum<ElementTheme>(selectTheme);
             }
         }
 

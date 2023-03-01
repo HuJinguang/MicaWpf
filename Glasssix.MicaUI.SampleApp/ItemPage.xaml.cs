@@ -251,10 +251,10 @@ namespace Glasssix.MicaUI.SampleApp
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            if (AnalyticsInfo.VersionInfo.DeviceFamily == "Windows.Xbox")
-            {
-                svPanel.Margin = new Thickness(0, 0, 48, 27);
-            }
+            //if (AnalyticsInfo.VersionInfo.DeviceFamily == "Windows.Xbox")
+            //{
+            //    svPanel.Margin = new Thickness(0, 0, 48, 27);
+            //}
         }
     }
 }
